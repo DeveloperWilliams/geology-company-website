@@ -34,7 +34,7 @@ This is a website for a geological company, built using React. It showcases the 
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/geological-company-website.git
+    git clone https://github.com/DeveloperWilliams/geology-company-website.git
     cd geological-company-website
     ```
 
@@ -45,16 +45,16 @@ This is a website for a geological company, built using React. It showcases the 
 
 3. **Start the development server:**
     ```bash
-    npm start
+    npm run dev
     ```
 
 ## Usage
 
 1. **Running the development server:**
     ```bash
-    npm start
+    npm run dev
     ```
-   This will start the application on `http://localhost:3000`.
+   This will start the application on `http://localhost:5173`.
 
 2. **Building for production:**
     ```bash
