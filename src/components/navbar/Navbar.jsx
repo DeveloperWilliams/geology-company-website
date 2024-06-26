@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <>
       <div className="container">
-        <div className="logo">Logo</div>
+        <div className="logo"><img src="./geotruth.png" alt="" /></div>
         <ul>
           <Link>Home</Link>
           <Link>About Us</Link>

@@ -10,11 +10,19 @@
   align-items: center;
   padding: 0px 120px;
   background-image: url("./geo1.jpg");
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
 }
 .container ul {
   display: flex;
-  gap: 40px;
+  gap: 50px;
 }
 .container ul a {
   text-decoration: none;
+  font-family: "Pacifico", cursive;
+  font-family: "Kanit", sans-serif;
+  color: grey;
+  font-size: 17px; 
+}
+.logo img{
+    height: 72px;
 }
