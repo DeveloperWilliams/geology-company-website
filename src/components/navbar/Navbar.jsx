@@ -33,8 +33,8 @@ const Navbar = () => {
           >
             About Us
           </Link>
-          <Link className="services">Services
-          <ul></ul>
+          <Link className="services">
+            Services
           </Link>
           <Link
             className={active === "contact" ? "active" : ""}

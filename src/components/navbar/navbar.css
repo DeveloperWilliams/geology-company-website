@@ -24,6 +24,22 @@
   color: grey;
   font-size: 18px;
   padding: 20px 12px;
+  position: relative;
+}
+
+.container ul a::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: #0066b2;
+  bottom: -2px;
+  left: 0;
+  transition: width 0.5s ease-in-out;
+}
+
+.container ul a:hover:not(.services)::after {
+  width: 100%;
 }
 .container ul .active {
   color: #0066b2;
