@@ -1,17 +1,47 @@
 import React from "react";
 import "./navbar.css";
 import { Link } from "react-router-dom";
+import { useState } from "react";
 
 const Navbar = () => {
+  const [active, setActive] = useState("home");
+
+  const handleClick = (item) => {
+    setActive(item);
+  };
+
   return (
     <>
       <div className="container">
-        <div className="logo"><img src="./geotruth.png" alt="" /></div>
+        <div className="logo">
+          <Link to="/">
+            <img src="./geotruth.png" alt="Logo-Geotruth" />
+          </Link>
+        </div>
         <ul>
-          <Link>Home</Link>
-          <Link>About Us</Link>
-          <Link>Services</Link>
-          <Link>Contanct Us</Link>
+          <Link
+            to="/"
+            className={active === "home" ? "active" : ""}
+            onClick={() => handleClick("home")}
+          >
+            Home
+          </Link>
+          <Link
+            to="/about-us"
+            className={active === "about" ? "active" : ""}
+            onClick={() => handleClick("about")}
+          >
+            About Us
+          </Link>
+          <Link className="services">Services
+          <ul></ul>
+          </Link>
+          <Link
+            className={active === "contact" ? "active" : ""}
+            onClick={() => handleClick("contact")}
+          >
+            Contact Us
+          </Link>
         </ul>
       </div>
     </>

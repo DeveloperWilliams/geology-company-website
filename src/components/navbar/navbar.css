@@ -14,15 +14,24 @@
 }
 .container ul {
   display: flex;
-  gap: 50px;
+  gap: 55px;
 }
 .container ul a {
   text-decoration: none;
   font-family: "Pacifico", cursive;
   font-family: "Kanit", sans-serif;
+  color: #8bb0e3;
   color: grey;
-  font-size: 17px; 
+  font-size: 18px;
+  padding: 20px 12px;
 }
-.logo img{
-    height: 78px;
+.container ul .active {
+  color: #0066b2;
+  font-weight: bold;
+}
+.services:hover {
+  font-weight: normal;
+}
+.logo img {
+  height: 78px;
 }
