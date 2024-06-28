@@ -18,11 +18,13 @@
 }
 .container ul a {
   text-decoration: none;
+  font-family: "Josefin Sans", sans-serif;
   font-family: "Pacifico", cursive;
   font-family: "Kanit", sans-serif;
+  font-family: "Roboto Slab", serif;
   color: #8bb0e3;
   color: grey;
-  font-size: 18px;
+  font-size: 16px;
   padding: 20px 12px;
   position: relative;
 }
