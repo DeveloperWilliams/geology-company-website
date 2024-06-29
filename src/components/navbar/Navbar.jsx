@@ -15,7 +15,7 @@ const Navbar = () => {
       <div className="container">
         <div className="logo">
           <Link to="/">
-            <img src="./geotruth.png" alt="Logo-Geotruth" />
+            <img src="./geotruth.webp" alt="Logo-Geotruth" />
           </Link>
         </div>
         <ul>
