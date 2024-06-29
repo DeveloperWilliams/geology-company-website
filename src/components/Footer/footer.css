@@ -19,7 +19,15 @@
   .footer .top {
     padding: 50px 30px;
     gap: 5px;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .links,
+  .services {
+    text-wrap: wrap;
+    grid-column: span 1;
+  }
+  .conta {
+    grid-column: span 2;
   }
 }
 .footer .top h3 {
@@ -32,11 +40,7 @@
   position: relative;
   margin-bottom: 23px;
 }
-.links,
-.services,
-.cont {
-  text-wrap: nowrap;
-}
+
 @media screen and (max-width: 540px) {
   .footer .top h3 {
     margin-top: 30px;

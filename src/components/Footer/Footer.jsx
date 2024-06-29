@@ -25,7 +25,7 @@ const Footer = () => {
               <Link to="/grid-system">Grid Systems</Link>
             </ul>
           </div>
-          <div className="cont">
+          <div className="conta">
             <h3>Contacts</h3>
             <ul>
               <Link to="tel:+254731440843">
