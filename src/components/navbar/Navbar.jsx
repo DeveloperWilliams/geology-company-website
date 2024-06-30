@@ -10,8 +10,15 @@ const Navbar = () => {
     setActive(item);
   };
 
+  const [isMenuVisible, setMenuVisibility] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuVisibility(!isMenuVisible);
+  };
+
   return (
     <>
+      {/* Larger Devices */}
       <div className="container">
         <div className="logo">
           <Link to="/">
@@ -33,9 +40,7 @@ const Navbar = () => {
           >
             About Us
           </Link>
-          <Link className="services">
-            Services
-          </Link>
+          <Link className="services">Services</Link>
           <Link
             className={active === "contact" ? "active" : ""}
             onClick={() => handleClick("contact")}
@@ -43,6 +48,20 @@ const Navbar = () => {
             Contact Us
           </Link>
         </ul>
+      </div>
+
+      {/* Smaller Devices Devices */}
+      <div className="container-small">
+        <div className="top">
+          <img className="my-logo" src="./geotruth.webp" alt="Logo-Geotruth" />
+          <img src="./main-menu.webp" alt="Menu" onClick={toggleMenu}/>
+        </div>
+        <div className={`menu-content ${isMenuVisible ? "visible" : ""}`}>
+          <Link>Home</Link>
+          <Link>About</Link>
+          <Link>Services</Link>
+          <Link>Contact</Link>
+        </div>
       </div>
     </>
   );

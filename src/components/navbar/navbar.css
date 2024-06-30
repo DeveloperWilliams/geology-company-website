@@ -14,13 +14,13 @@
   z-index: 1000;
 }
 @media screen and (max-width: 1024px) {
-  .container{
+  .container {
     padding: 0px 40px;
   }
 }
 @media screen and (max-width: 760px) {
-  .container{
-   display: none;
+  .container {
+    display: none;
   }
 }
 .container ul {
@@ -63,4 +63,59 @@
 }
 .logo img {
   height: 78px;
+}
+
+@media screen and (min-width: 760px) {
+  .container-small {
+    display: none;
+  }
+}
+
+.container-small {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+.container-small .top {
+  height: 70px;
+  background-image: url("./geo1.jpg");
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  padding: 0px 30px;
+  width: inherit;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container-small .top img {
+  height: 50px;
+}
+.container-small .top .my-logo {
+  height: 60px;
+}
+.container-small .menu-content {
+  overflow: hidden;
+  height: 0;
+  transition: height 2s ease-out;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 10px;
+  gap: 10px;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px,
+    rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+  border-bottom: 2px solid #8bb0e3;
+  z-index: 1000;
+  background-image: url("./geo1.jpg");
+}
+.container-small .menu-content.visible {
+  height: max-content;
+  padding-bottom: 20px;
+}
+.container-small .menu-content a {
+  text-decoration: none;
+  font-family: "Roboto Slab", serif;
+  color: grey;
+  padding: 10px;
 }
