@@ -8,6 +8,7 @@ const Navbar = () => {
 
   const handleClick = (item) => {
     setActive(item);
+    setMenuVisibility(false)
   };
 
   const [isMenuVisible, setMenuVisibility] = useState(false);
@@ -54,13 +55,30 @@ const Navbar = () => {
       <div className="container-small">
         <div className="top">
           <img className="my-logo" src="./geotruth.webp" alt="Logo-Geotruth" />
-          <img src="./main-menu.webp" alt="Menu" onClick={toggleMenu}/>
+          <img src="./menu.webp" alt="Menu" onClick={toggleMenu} />
         </div>
         <div className={`menu-content ${isMenuVisible ? "visible" : ""}`}>
-          <Link>Home</Link>
-          <Link>About</Link>
-          <Link>Services</Link>
-          <Link>Contact</Link>
+          <Link
+            to="/"
+            className={active === "home" ? "active" : ""}
+            onClick={() => handleClick("home")}
+          >
+            Home
+          </Link>
+          <Link
+            to="/about-us"
+            className={active === "about" ? "active" : ""}
+            onClick={() => handleClick("about")}
+          >
+            About Us
+          </Link>
+          <Link className="services">Services</Link>
+          <Link
+            className={active === "contact" ? "active" : ""}
+            onClick={() => handleClick("contact")}
+          >
+            Contact Us
+          </Link>
         </div>
       </div>
     </>
