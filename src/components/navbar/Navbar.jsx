@@ -8,7 +8,7 @@ const Navbar = () => {
 
   const handleClick = (item) => {
     setActive(item);
-    setMenuVisibility(false)
+    setMenuVisibility(false);
   };
 
   const [isMenuVisible, setMenuVisibility] = useState(false);
@@ -43,6 +43,7 @@ const Navbar = () => {
           </Link>
           <Link className="services">Services</Link>
           <Link
+            to="/contact"
             className={active === "contact" ? "active" : ""}
             onClick={() => handleClick("contact")}
           >

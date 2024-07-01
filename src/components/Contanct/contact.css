@@ -1,0 +1,65 @@
+.contanct-home {
+  height: 100vh;
+  padding: 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.contanct-home .top {
+  text-align: center;
+  color: #8bb0e3;
+  font-weight: 900;
+  font-size: 25px;
+  font-family: "Josefin Sans", sans-serif;
+}
+.contanct-home .bottom {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  gap: 50px;
+}
+.contanct-home .bottom .left,
+.contanct-home .bottom .right {
+  flex: 1;
+}
+.contanct-home .bottom form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.contanct-home .bottom form div {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  justify-content: end;
+}
+.contanct-home .bottom form input {
+  width: 100%;
+  height: 40px;
+  background-color: aliceblue;
+  outline: none;
+  border: 1px solid bisque;
+  padding: 0px 20px;
+  font-family: "Oswald", sans-serif;
+}
+.contanct-home .bottom form textarea {
+  height: 200px;
+  resize: none;
+  outline: none;
+  width: 100%;
+  background-color: aliceblue;
+  border: 1px solid bisque;
+  padding: 20px;
+  font-family: "Oswald", sans-serif;
+  line-height: 1.9;
+  font-size: 13px;
+}
+.contanct-home .bottom form button {
+  height: 30px;
+  background-color: aliceblue;
+  border: 2px solid bisque;
+  cursor: pointer;
+  font-family: "Oswald", sans-serif;
+  width: 40%;
+  color: grey;
+}
