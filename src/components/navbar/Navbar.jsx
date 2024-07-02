@@ -41,7 +41,15 @@ const Navbar = () => {
           >
             About Us
           </Link>
-          <Link className="services">Services</Link>
+          <Link className="services">
+            Services
+            <ul className="serviceUl">
+              <Link className="serviceLinks">Ground Water Management</Link>
+              <Link className="serviceLinks">Geology and Minerals</Link>
+              <Link className="serviceLinks">Solar Systems</Link>
+              <Link className="serviceLinks">Grid Systems</Link>
+            </ul>
+          </Link>
           <Link
             to="/contact"
             className={active === "contact" ? "active" : ""}
@@ -75,6 +83,7 @@ const Navbar = () => {
           </Link>
           <Link className="services">Services</Link>
           <Link
+            to="/contact"
             className={active === "contact" ? "active" : ""}
             onClick={() => handleClick("contact")}
           >

@@ -4,14 +4,18 @@ import { Route, Routes } from "react-router-dom";
 import Home from "./components/Home/Home";
 import Footer from "./components/Footer/Footer";
 import Contact from "./components/Contanct/Contact";
+import About from "./components/about/About";
+import ScrollToTop from "./components/ScrollToTop";
 
 const App = () => {
   return (
     <>
       <Navbar />
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />}></Route>
-        <Route path="/contact" element={<Contact/>}></Route>
+        <Route path="/contact" element={<Contact />}></Route>
+        <Route path="/about-us" element={<About />}></Route>
       </Routes>
       <Footer />
     </>

@@ -1,9 +1,19 @@
 .contanct-home {
-  height: 100vh;
+  padding-top: 140px;
   padding: 120px;
+  padding-bottom: 40px;
   display: flex;
   flex-direction: column;
   gap: 30px;
+  background-image: url("./bg2.jpg");
+}
+@media screen and (max-width: 540px) {
+  .contanct-home {
+    padding: 120px 40px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
 }
 .contanct-home .top {
   text-align: center;
@@ -12,24 +22,39 @@
   font-size: 25px;
   font-family: "Josefin Sans", sans-serif;
 }
+
 .contanct-home .bottom {
   display: flex;
   gap: 30px;
   justify-content: space-between;
-  gap: 50px;
+  gap: 80px;
+  margin-top: 20px;
 }
-.contanct-home .bottom .left,
+@media screen and (max-width: 540px) {
+  .contanct-home .bottom {
+    flex-direction: column;
+    gap: 60px;
+  }
+}
+.contanct-home .bottom .left {
+  flex: 3;
+}
 .contanct-home .bottom .right {
-  flex: 1;
+  flex: 2;
 }
 .contanct-home .bottom form {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 25px;
+}
+.contanct-home .bottom h6 {
+  font-size: 14px;
+  font-family: "Josefin Sans", sans-serif;
+  color: grey;
 }
 .contanct-home .bottom form div {
   display: flex;
-  gap: 20px;
+  gap: 16px;
   width: 100%;
   justify-content: end;
 }
@@ -39,11 +64,12 @@
   background-color: aliceblue;
   outline: none;
   border: 1px solid bisque;
+  color: grey;
   padding: 0px 20px;
   font-family: "Oswald", sans-serif;
 }
 .contanct-home .bottom form textarea {
-  height: 200px;
+  height: 150px;
   resize: none;
   outline: none;
   width: 100%;
@@ -53,6 +79,7 @@
   font-family: "Oswald", sans-serif;
   line-height: 1.9;
   font-size: 13px;
+  overflow: hidden;
 }
 .contanct-home .bottom form button {
   height: 30px;
@@ -62,4 +89,37 @@
   font-family: "Oswald", sans-serif;
   width: 40%;
   color: grey;
+}
+.contanct-home .bottom .right {
+  display: flex;
+  flex-direction: column;
+}
+.contanct-home .bottom .right ul {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 30px;
+}
+.contanct-home .bottom .right ul a {
+  display: flex;
+  gap: 15px;
+  text-decoration: none;
+  align-items: center;
+  color: rgb(19, 19, 19);
+  font-family: "Oswald", sans-serif;
+}
+.contanct-home .bottom .right ul a:hover {
+  color: #8bb0e3;
+}
+.contanct-home .bottom .right ul a img {
+  height: 30px;
+}
+.contanct-home .bottom .right .follow {
+  margin-top: 50px;
+}
+.contanct-home .bottom .right .follow ul {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin-top: 15px;
 }

@@ -1,4 +1,28 @@
-.home{
-    background-image: url("./bg2.jpg");
-    height: 100vh;
+.home {
+  background-image: url("./bg2.jpg");
+  padding: 120px;
+  padding-bottom: 30px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.home .content {
+  background-color: aliceblue;
+  height: 390px;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+}
+.home .content .top {
+  height: 65%;
+  background-color: antiquewhite;
+}
+.home .content .lower {
+  padding: 30px 20px;
+}
+.home .content .lower h6 {
+  font-family: "Oswald", sans-serif;
+  font-size: 14px;
+  color: grey;
 }

@@ -1,5 +1,4 @@
 .container {
-  height: 90px;
   position: fixed;
   top: 0;
   left: 0;
@@ -23,6 +22,9 @@
     display: none;
   }
 }
+.container .logo img{
+  height: 80px;
+}
 .container ul {
   display: flex;
   gap: 55px;
@@ -30,17 +32,15 @@
 .container ul a {
   text-decoration: none;
   font-family: "Josefin Sans", sans-serif;
-  font-family: "Pacifico", cursive;
-  font-family: "Kanit", sans-serif;
-  font-family: "Roboto Slab", serif;
+  font-family: "Oswald", sans-serif;
   color: #8bb0e3;
   color: grey;
   font-size: 16px;
-  padding: 20px 12px;
+  padding: 30px 12px;
   position: relative;
 }
 
-.container ul a::after {
+.container ul a:not(.services ul a)::after {
   content: "";
   position: absolute;
   width: 0%;
@@ -58,8 +58,36 @@
   color: #0066b2;
   font-weight: bold;
 }
-.services:hover {
+.services {
+  position: relative;
+}
+.services:hover{
+  color: #0066b2;
+}
+.services:hover.services ul {
+  display: flex;
+}
+.services ul {
+  position: absolute;
+  gap: 0px;
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  background-image: url("./bg2.jpg");
+  margin-top: 30px;
+  display: none;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  z-index: 1000;
+}
+.services ul a {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 15px;
+  padding: 15px 12px;
+  border-top: 1px solid #8bb0e3;
   font-weight: normal;
+}
+.services ul a:hover {
+  background-color: #8bb0e3;
 }
 .logo img {
   height: 78px;
@@ -119,7 +147,7 @@
   color: grey;
   padding: 10px;
 }
-.container-small .menu-content .active{
+.container-small .menu-content .active {
   color: #0066b2;
   font-weight: bold;
 }
