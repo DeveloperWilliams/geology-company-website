@@ -1,4 +1,4 @@
-# Geological Company's Website
+# Geological Company's Website.
 
 This is a website for a geological company based in Africa, built using React. It showcases the company's services, projects, and provides a platform for clients to contact the company.
 
