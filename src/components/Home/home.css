@@ -20,7 +20,7 @@
 }
 @media screen and (max-width: 500px) {
   .hero {
-    padding: 90px 30px;
+    padding: 110px 30px;
     padding-bottom: 30px;
   }
 }
@@ -30,6 +30,12 @@
   font-size: 27px;
   color: gray;
   color: #8bb0e3;
+}
+.hero h6{
+  text-align: center;
+  font-family: "Playwrite DE Grund", cursive;
+  color: grey;
+  font-size: 15px;
 }
 @media screen and (max-width: 540px) {
   .hero h3 {

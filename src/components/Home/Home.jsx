@@ -19,11 +19,12 @@ const Home = () => {
   return (
     <>
       <div className="hero">
-        <h3>Our Services</h3>
+        <h6>Our Services</h6>
+        <h3>What We Offer</h3>
         <div className="home">
           <Link className="content" ref={ref1}>
             <div className="top">
-              <img src="./hole.webp" alt="borehole" loading="lazy" />
+              <img src="./bore.webp" alt="borehole" loading="lazy" />
             </div>
             <motion.div
               className="lower"
