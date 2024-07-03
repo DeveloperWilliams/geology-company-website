@@ -21,7 +21,7 @@
 .hero h3 {
   font-family: "Playwrite DE Grund", cursive;
   text-align: center;
-  color: #8bb0e3;
+  font-size: 25px;
 }
 .home {
   display: grid;
@@ -58,7 +58,7 @@
 }
 
 .home .content .top {
-  height: 70%;
+  height: 65%;
   background-color: antiquewhite;
 }
 .home .content .top img {
@@ -82,5 +82,5 @@
   font-weight: 400;
   color: grey;
   line-height: 1.3;
-font-size: 14px;
+  font-size: 18px;
 }
