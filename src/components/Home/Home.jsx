@@ -19,8 +19,7 @@ const Home = () => {
   return (
     <>
       <div className="hero">
-        <h5>Our Services</h5>
-        <h3>What We Offer</h3>
+        <h3>Our Services</h3>
         <div className="home">
           <Link className="content" ref={ref1}>
             <div className="top">
