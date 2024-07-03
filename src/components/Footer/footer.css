@@ -21,13 +21,15 @@
     gap: 5px;
     grid-template-columns: repeat(2, 1fr);
   }
-  .links,
-  .Fservices {
+  .links {
     text-wrap: wrap;
     grid-column: span 1;
   }
+  .Fservices {
+    grid-column: span 3;
+  }
   .conta {
-    grid-column: span 2;
+    grid-column: span 4;
   }
 }
 .footer .top h3 {
@@ -65,12 +67,12 @@
 .footer .top ul a {
   text-decoration: none;
   display: flex;
-  gap: 9px; 
+  gap: 9px;
   color: whitesmoke;
   font-family: "Oswald", sans-serif;
   font-family: "Lato", sans-serif;
 }
-.footer .top ul a:hover{
+.footer .top ul a:hover {
   color: #0066b2;
 }
 .footer .top ul a img {
@@ -94,7 +96,7 @@
   height: 23px;
 }
 @media screen and (max-width: 540px) {
-  .footer .bottom img{
+  .footer .bottom img {
     height: 35px;
   }
 }

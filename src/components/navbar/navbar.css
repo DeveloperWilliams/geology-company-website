@@ -151,3 +151,20 @@
   color: #0066b2;
   font-weight: bold;
 }
+.container-small .services div {
+  position: relative;
+  gap: 5px;
+  display: flex;
+  display: none;
+  flex-direction: column;
+  padding-bottom: 0px;
+  margin-bottom: -23px;
+  margin-top: 8px;
+  padding-left: 25px;
+}
+.container-small .services div a {
+  font-family: "Josefin Sans", sans-serif;
+}
+.container-small .services:hover div {
+  display: flex;
+}

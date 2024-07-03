@@ -1,17 +1,23 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./navbar.css";
 import { Link } from "react-router-dom";
-import { useState } from "react";
 
 const Navbar = () => {
-  const [active, setActive] = useState("home");
+  const [active, setActive] = useState(localStorage.getItem("activeLink") || "home");
+  const [isMenuVisible, setMenuVisibility] = useState(false);
+
+  useEffect(() => {
+    localStorage.setItem("activeLink", active);
+  }, [active]);
 
   const handleClick = (item) => {
     setActive(item);
     setMenuVisibility(false);
   };
 
-  const [isMenuVisible, setMenuVisibility] = useState(false);
+  const CloseUl = () => {
+    setMenuVisibility(false);
+  };
 
   const toggleMenu = () => {
     setMenuVisibility(!isMenuVisible);
@@ -44,10 +50,18 @@ const Navbar = () => {
           <Link className="services">
             Services
             <ul className="serviceUl">
-              <Link className="serviceLinks">Ground Water Management</Link>
-              <Link className="serviceLinks">Geology and Minerals</Link>
-              <Link className="serviceLinks">Solar Systems</Link>
-              <Link className="serviceLinks">Grid Systems</Link>
+              <Link className="serviceLinks" to="/ground-water-management">
+                Groundwater Management
+              </Link>
+              <Link className="serviceLinks" to="/geology-and-minerals">
+                Geology and Minerals
+              </Link>
+              <Link className="serviceLinks" to="/solar-system">
+                Solar System
+              </Link>
+              <Link className="serviceLinks" to="/grid-system">
+                Grid Systems
+              </Link>
             </ul>
           </Link>
           <Link
@@ -81,7 +95,23 @@ const Navbar = () => {
           >
             About Us
           </Link>
-          <Link className="services">Services</Link>
+          <Link className="services">
+            Services{" "}
+            <div className="serviceUl">
+              <Link onClick={CloseUl} className="serviceLinks" to="/ground-water-management">
+                Groundwater Management
+              </Link>
+              <Link onClick={CloseUl} className="serviceLinks" to="/geology-and-minerals">
+                Geology and Minerals
+              </Link>
+              <Link onClick={CloseUl} className="serviceLinks" to="/solar-system">
+                Solar System
+              </Link>
+              <Link onClick={CloseUl} className="serviceLinks" to="/grid-system">
+                Grid Systems
+              </Link>
+            </div>
+          </Link>
           <Link
             to="/contact"
             className={active === "contact" ? "active" : ""}
