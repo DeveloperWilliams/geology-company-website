@@ -93,6 +93,11 @@
 .footer .bottom img {
   height: 23px;
 }
+@media screen and (max-width: 540px) {
+  .footer .bottom img{
+    height: 35px;
+  }
+}
 .footer .bottom h6 {
   color: grey;
   font-family: "Pacifico", cursive;
