@@ -22,7 +22,7 @@
     display: none;
   }
 }
-.container .logo img{
+.container .logo img {
   height: 80px;
 }
 .container ul {
@@ -31,13 +31,13 @@
 }
 .container ul a {
   text-decoration: none;
-  font-family: "Josefin Sans", sans-serif;
-  font-family: "Oswald", sans-serif;
+  font-family: "Outfit", sans-serif;
   color: #8bb0e3;
   color: grey;
-  font-size: 16px;
+  font-size: 18px;
   padding: 30px 12px;
   position: relative;
+  font-weight: 800;
 }
 
 .container ul a:not(.services ul a)::after {
@@ -61,7 +61,7 @@
 .services {
   position: relative;
 }
-.services:hover{
+.services:hover {
   color: #0066b2;
 }
 .services:hover.services ul {

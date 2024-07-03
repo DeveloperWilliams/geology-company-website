@@ -19,7 +19,7 @@ const Home = () => {
   return (
     <>
       <div className="hero">
-        <h6>Our Services</h6>
+        <h5>Our Services</h5>
         <h3>What We Offer</h3>
         <div className="home">
           <Link className="content" ref={ref1}>
@@ -30,7 +30,7 @@ const Home = () => {
               className="lower"
               initial={{ x: -200, opacity: 0 }}
               animate={isInView1 ? { x: 0, opacity: 1 } : { x: -300, opacity: 0 }}
-              transition={{ duration: 1.5 }}
+              transition={{ duration: 1.2 }}
             >
               <h6>Ground Water Management</h6>
               <p>
@@ -47,7 +47,7 @@ const Home = () => {
               className="lower"
               initial={{ x: 200, opacity: 0 }}
               animate={isInView2 ? { x: 0, opacity: 1 } : { x: 200, opacity: 0 }}
-              transition={{ duration: 1.8 }}
+              transition={{ duration: 1.4 }}
             >
               <h6>Geology and Minerals</h6>
               <p>
@@ -64,7 +64,7 @@ const Home = () => {
               className="lower"
               initial={{ x: -200, opacity: 0 }}
               animate={isInView3 ? { x: 0, opacity: 1 } : { x: -200, opacity: 0 }}
-              transition={{ duration: 1.4 }}
+              transition={{ duration: 1.2 }}
             >
               <h6>Solar Systems</h6>
               <p>
@@ -79,8 +79,8 @@ const Home = () => {
             </div>
             <motion.div
               className="lower"
-              initial={{ x: -200, opacity: 0 }}
-              animate={isInView4 ? { x: 0, opacity: 1 } : { x: -200, opacity: 0 }}
+              initial={{ x: 200, opacity: 0 }}
+              animate={isInView4 ? { x: 0, opacity: 1 } : { x: 200, opacity: 0 }}
               transition={{ duration: 1.4 }}
             >
               <h6>Griding Survey</h6>
