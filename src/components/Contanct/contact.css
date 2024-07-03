@@ -67,6 +67,7 @@
   color: grey;
   padding: 0px 20px;
   font-family: "Oswald", sans-serif;
+  letter-spacing: 0.2mm;
 }
 .contanct-home .bottom form textarea {
   height: 150px;
