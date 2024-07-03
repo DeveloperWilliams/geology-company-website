@@ -1,12 +1,38 @@
-.home {
-  background-image: url("./bg2.jpg");
+.hero {
   padding: 120px;
-  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  background-image: url("./bg2.jpg");
+  padding-bottom: 70px;
+}
+@media screen and (max-width: 1024px) {
+  .hero {
+    padding: 90px 50px;
+    padding-bottom: 50px;
+  }
+}
+@media screen and (max-width: 540px) {
+  .hero {
+    padding: 90px 30px;
+    padding-bottom: 30px;
+  }
+}
+.hero h3 {
+  font-family: "Playwrite DE Grund", cursive;
+  text-align: center;
+  color: #8bb0e3;
+}
+.home {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
 }
-
+@media screen and (max-width: 540px) {
+  .home {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
 .home .content {
   background-color: aliceblue;
   height: 390px;
@@ -14,15 +40,43 @@
   flex-direction: column;
   text-decoration: none;
 }
+@media screen and (max-width: 1024px) {
+  .hero .content {
+    height: 490px;
+  }
+}
+@media screen and (max-width: 540px) {
+  .hero .content {
+    height: 460px;
+  }
+  .hero .content:nth-child(3){
+    flex-direction: column-reverse;
+  }
+}
+
 .home .content .top {
-  height: 65%;
+  height: 70%;
   background-color: antiquewhite;
+}
+.home .content .top img {
+  height: 100%;
+  width: 100%;
 }
 .home .content .lower {
   padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 .home .content .lower h6 {
   font-family: "Oswald", sans-serif;
-  font-size: 14px;
+  font-size: 15px;
   color: grey;
+  color: #8bb0e3;
+}
+.home .content .lower p {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  color: grey;
+  line-height: 1.3;
 }
