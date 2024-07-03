@@ -28,8 +28,8 @@ const Home = () => {
             <motion.div
               className="lower"
               initial={{ x: -200, opacity: 0 }}
-              animate={isInView1 ? { x: 0, opacity: 1 } : { x: -200, opacity: 0 }}
-              transition={{ duration: 1.3 }}
+              animate={isInView1 ? { x: 0, opacity: 1 } : { x: -300, opacity: 0 }}
+              transition={{ duration: 1.5 }}
             >
               <h6>Ground Water Management</h6>
               <p>
@@ -44,9 +44,9 @@ const Home = () => {
             </div>
             <motion.div
               className="lower"
-              initial={{ x: -200, opacity: 0 }}
-              animate={isInView2 ? { x: 0, opacity: 1 } : { x: -200, opacity: 0 }}
-              transition={{ duration: 1.4 }}
+              initial={{ x: 200, opacity: 0 }}
+              animate={isInView2 ? { x: 0, opacity: 1 } : { x: 200, opacity: 0 }}
+              transition={{ duration: 1.8 }}
             >
               <h6>Geology and Minerals</h6>
               <p>
