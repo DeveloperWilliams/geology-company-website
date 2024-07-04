@@ -1,0 +1,26 @@
+.hire {
+  background-color: aliceblue;
+  padding: 50px 120px;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.hire .left {
+  flex: 2;
+  text-align: right;
+  font-family: "Pacifico", cursive;
+  font-family: "Kanit", sans-serif;
+  font-family: "Roboto Slab", serif;
+  font-family: "Rowdies", sans-serif;
+  font-family: "Zilla Slab", serif;
+  font-family: "Lilita One", sans-serif;
+  font-family: "Outfit", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
+  line-height: 1.4;
+}
+.hire .right {
+  flex: 3;
+}
+.hire .right form{
+    background-color: red;
+}
