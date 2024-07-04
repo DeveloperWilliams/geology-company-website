@@ -2,7 +2,7 @@
 
 import React from "react";
 import { Link } from "react-router-dom";
-import { motion, useInView } from "framer-motion";
+import { delay, motion, useInView } from "framer-motion";
 import "./home.css";
 
 const Home = () => {
@@ -29,7 +29,7 @@ const Home = () => {
               className="lower"
               initial={{ x: -200, opacity: 0 }}
               animate={isInView1 ? { x: 0, opacity: 1 } : { x: -300, opacity: 0 }}
-              transition={{ duration: 1.2 }}
+              transition={{ duration: 1 } }
             >
               <h6>Ground Water Management</h6>
               <p>
@@ -46,7 +46,7 @@ const Home = () => {
               className="lower"
               initial={{ x: 200, opacity: 0 }}
               animate={isInView2 ? { x: 0, opacity: 1 } : { x: 200, opacity: 0 }}
-              transition={{ duration: 1.4 }}
+              transition={{ duration: 1, delay: 1 }}
             >
               <h6>Geology and Minerals</h6>
               <p>
@@ -63,7 +63,7 @@ const Home = () => {
               className="lower"
               initial={{ x: -200, opacity: 0 }}
               animate={isInView3 ? { x: 0, opacity: 1 } : { x: -200, opacity: 0 }}
-              transition={{ duration: 1.2 }}
+              transition={{ duration: 1 , delay: 1.5}}
             >
               <h6>Solar Systems</h6>
               <p>
@@ -80,7 +80,7 @@ const Home = () => {
               className="lower"
               initial={{ x: 200, opacity: 0 }}
               animate={isInView4 ? { x: 0, opacity: 1 } : { x: 200, opacity: 0 }}
-              transition={{ duration: 1.4 }}
+              transition={{ duration: 1, delay: 0.8 }}
             >
               <h6>Griding Survey</h6>
               <p>
