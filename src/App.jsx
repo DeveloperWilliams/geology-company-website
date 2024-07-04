@@ -6,6 +6,7 @@ import Footer from "./components/Footer/Footer";
 import Contact from "./components/Contanct/Contact";
 import About from "./components/about/About";
 import ScrollToTop from "./components/ScrollToTop";
+import Hire from "./components/hire/Hire";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
         <Route path="/contact" element={<Contact />}></Route>
         <Route path="/about-us" element={<About />}></Route>
       </Routes>
+      <Hire/>
       <Footer />
     </>
   );
