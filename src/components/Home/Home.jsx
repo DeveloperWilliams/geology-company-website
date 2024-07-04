@@ -19,7 +19,7 @@ const Home = () => {
   return (
     <>
       <div className="hero">
-        <h3>Our Services</h3>
+        <h3>Our Expertise</h3>
         <div className="home">
           <Link className="content" ref={ref1}>
             <div className="top">
