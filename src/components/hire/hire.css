@@ -22,5 +22,33 @@
   flex: 3;
 }
 .hire .right form{
-    background-color: red;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.hire .right form div{
+    display: flex;
+    gap: 20px;
+}
+.hire .right form input{
+    width: 100%;
+    height: 30px;
+}
+.hire .right form select{
+    width: 48%;
+    height: 30px;
+}
+.hire .right form label{
+    display: flex;
+    width: 50%;
+}
+.hire .right form textarea{
+    display: flex;
+    width: 100%;
+    height: 120px;
+    resize: none;
+}
+.hire .right form label{
+    display: flex;
+    width: 50%;
 }
