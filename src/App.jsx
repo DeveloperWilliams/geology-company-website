@@ -17,9 +17,20 @@ import RouteChangeLoader from "./components/RouteChangeLoader";
 const App = () => {
   return (
     <>
-      <Navbar />
       <ScrollToTop />
-      <RouteChangeLoader>
+      <RouteChangeLoader
+        beforeLoad={
+          <>
+            <Navbar />
+          </>
+        }
+        afterLoad={
+          <>
+            <Hire />
+            <Footer />
+          </>
+        }
+      >
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/contact" element={<Contact />} />
@@ -29,8 +40,6 @@ const App = () => {
           <Route path="/solar-system" element={<Esia />} />
         </Routes>
       </RouteChangeLoader>
-      <Hire />
-      <Footer />
     </>
   );
 };

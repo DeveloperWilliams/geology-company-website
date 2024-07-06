@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import Loader from './Loader/Loader';
 
-const RouteChangeLoader = ({ children }) => {
+const RouteChangeLoader = ({ children, beforeLoad, afterLoad }) => {
   const [loading, setLoading] = useState(false);
   const location = useLocation();
 
@@ -19,7 +19,13 @@ const RouteChangeLoader = ({ children }) => {
 
   return (
     <>
-      {loading ? <Loader/> : children}
+      {loading ? <Loader /> : (
+        <>
+          {beforeLoad}
+          {children}
+          {afterLoad}
+        </>
+      )}
     </>
   );
 };
