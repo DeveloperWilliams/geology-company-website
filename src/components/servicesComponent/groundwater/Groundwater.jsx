@@ -75,22 +75,15 @@ function Groundwater() {
                 Africa's Pro Hydrogeologists.
               </h6>
               <p>
-                Our hydrogeological analysis provides efficient access to
-                groundwater, ensuring reliable water sources for diverse needs.
-                From aquifer characterization to comprehensive solutions, our
-                expertise spans a wide spectrum;
+                Our hydrogeological analysis ensures efficient access to
+                groundwater, guaranteeing reliable water sources for diverse
+                needs.
               </p>
               <ul>
                 <li>
                   <img src="./checked.webp" />
                   Aquifer characterisation: depth, thickness, yield and quality
                   assessment before drilling with a high degree of confidence.
-                </li>
-                <li>
-                  <img src="./checked.webp" />
-                  Local and regional aquifer and water quality assessment and
-                  modelling. This is a useful resource for land valuation for
-                  prospective developers in regard to its groundwater potential.
                 </li>
                 <li>
                   <img src="./checked.webp" />
