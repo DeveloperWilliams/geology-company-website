@@ -1,17 +1,15 @@
-// src/SpinningImage.js
-
 import React from "react";
-import "./loader.css";
+import "./loader.css"; // 
 
-const Loader = ({ imageUrl }) => {
+const Loader = () => {
   return (
-    <>
-      <div className="loader">
-        <div className="outer">
-          <div className="inner"></div>
+    <div className="loader">
+      <div className="outer">
+        <div className="inner">
+          <img src="./geotruth.webp" alt="logo" />
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
