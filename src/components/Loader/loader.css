@@ -1,24 +1,32 @@
 /* src/SpinningImage.css */
 .loader{
-    height: 80vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: white;
 }
 /* styles.css */
 .outer {
-    width: 200px;
-    height: 200px;
-    background-color: #3498db;
+    border: 4px solid white;
+    border-top: 4px solid #3498db;
     border-radius: 50%;
-    position: relative;
-    animation: spin 4s linear infinite;
+    width: 180px;
+    height: 180px;
+    animation: spin 1s linear infinite;
+    margin: 20px auto;
+    background-color: white;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
 }
 
 .inner {
-    width: 100px;
-    height: 100px;
-    background-color: #2ecc71;
+    width: 180px;
+    height: 180px;
+    background-color: white;
     border-radius: 50%;
     position: absolute;
     top: 50%;
@@ -26,8 +34,3 @@
     transform: translate(-50%, -50%);
 }
 
-@keyframes spin {
-    100% {
-        transform: rotate(360deg);
-    }
-}
