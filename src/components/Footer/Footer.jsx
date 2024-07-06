@@ -22,7 +22,7 @@ const Footer = () => {
               <Link to="/ground-water-management">Groundwater Management</Link>
               <Link to="/geology-and-minerals">Geology and Minerals</Link>
               <Link to="/solar-system">Solar System</Link>
-              <Link to="/grid-system">Grid Systems</Link>
+              <Link to="/grid-survey">Grid Survey</Link>
             </ul>
           </div>
           <div className="conta">
