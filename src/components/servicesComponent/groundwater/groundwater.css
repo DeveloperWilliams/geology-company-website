@@ -87,7 +87,7 @@
   padding: 10px;
 }
 .ground .bottom .upper .two h6 {
-   font-family: "Playwrite DE Grund", cursive;
+  font-family: "Playwrite DE Grund", cursive;
   font-size: 20px;
   color: #5f9ea0;
   line-height: 1.6;
@@ -122,9 +122,8 @@
 
 .ground .middle {
   padding: 35px 120px;
-  background-color: #5f9ea0;
+  background-color: gainsboro;
   display: flex;
-  justify-content: space-around;
   gap: 20px;
   align-items: center;
   align-items: end;
@@ -141,11 +140,17 @@
   }
 }
 .middle p {
-  font-family: "Amaranth", sans-serif;
-  font-family: "Acme", sans-serif;
-  font-weight: 100;
-  color: ghostwhite;
-  font-size: 30px;
+  font-family: "Pacifico", cursive;
+  font-family: "Kanit", sans-serif;
+  font-family: "Roboto Slab", serif;
+  font-family: "Rowdies", sans-serif;
+  font-family: "Zilla Slab", serif;
+  font-family: "Lilita One", sans-serif;
+  font-family: "Outfit", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
+  color: grey;
+  text-align: right;
+  font-size: 25px;
   flex: 2;
   line-height: 1.3;
 }

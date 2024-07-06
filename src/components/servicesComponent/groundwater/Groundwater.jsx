@@ -52,12 +52,12 @@ function Groundwater() {
         {/* Borehole request */}
         <div className="middle">
           <p>
-            Searching for a sustainable water solution for your home, business,
+            Looking for a sustainable water solution for your home, business,
             or industry?
           </p>
           <div>
             <div className="div">
-              <Link to="/get-a-free-qoute">Request a Quote</Link>
+              <Link to="/contact">Request a Quote</Link>
             </div>
           </div>
         </div>
