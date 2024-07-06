@@ -1,6 +1,5 @@
 import React from "react";
 import "./esia.css";
-import Cont from "../cont-service/Cont";
 
 function Esia() {
   return (
@@ -8,7 +7,7 @@ function Esia() {
       <div className="esia">
         <div className="top">
           <h6>Our Services</h6>
-          <h5>ESIA & RENEWABLE ENERGY</h5>
+          <h5>Solar Systems</h5>
         </div>
         <div className="bottom">
           <div className="upper">
@@ -17,9 +16,8 @@ function Esia() {
             </div>
             <div className="two">
               <h6>
-                We're East Africa's Foremost Environmental and Social Impact
-                Assessment (ESIA) Specialists, Transforming Environmental
-                Insights into Sustainable Energy Solutions
+                We're East Africa's Leading Solar Installation Specialists,
+                Transforming Solar Potential into Sustainable Energy Solutions.
               </h6>
               <p>
                 Our Environmental and Social Impact Assessment (ESIA) and
@@ -48,7 +46,6 @@ function Esia() {
           </div>
         </div>
       </div>
-      <Cont/>
     </>
   );
 }
