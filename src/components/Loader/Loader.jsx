@@ -7,8 +7,8 @@ const Loader = ({ imageUrl }) => {
   return (
     <>
       <div className="loader">
-        <div className="spinning-border">
-          <img src="./geotruth.webp" alt="Logo" className="spinning-image" />
+        <div className="outer">
+          <div className="inner"></div>
         </div>
       </div>
     </>
