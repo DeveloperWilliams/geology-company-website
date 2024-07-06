@@ -1,14 +1,14 @@
 // src/SpinningImage.js
 
 import React from 'react';
-import './SpinningImage.css';
+import './loader.css';
 
-const SpinningImage = ({ imageUrl }) => {
+const Loader = ({ imageUrl }) => {
   return (
     <div className="spinning-border">
-      <img src={imageUrl} alt="Spinning" className="spinning-image" />
+      <img src="./geotruth.webp" alt="Logo" className='spinning-image'/>
     </div>
   );
 };
 
-export default SpinningImage;
+export default Loader;

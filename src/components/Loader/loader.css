@@ -1,0 +1,29 @@
+/* src/SpinningImage.css */
+
+.spinning-border {
+    width: 200px; /* Adjust as needed */
+    height: 200px; /* Adjust as needed */
+    border: 5px solid transparent;
+    border-radius: 50%;
+    border-top: 5px solid #3498db; /* Color of the spinning border */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: spin 2s linear infinite;
+  }
+  
+  .spinning-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  

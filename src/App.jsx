@@ -10,6 +10,7 @@ import Hire from "./components/hire/Hire";
 import Groundwater from "./components/servicesComponent/groundwater/Groundwater";
 import Mineral from "./components/servicesComponent/mineral/Mineral";
 import Esia from "./components/servicesComponent/esia/Esia";
+import Loader from "./components/Loader/Loader";
 
 const App = () => {
   return (
