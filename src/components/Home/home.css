@@ -31,7 +31,7 @@
   color: gray;
   color: #8bb0e3;
 }
-.hero h5{
+.hero h5 {
   text-align: left;
   font-family: "Playwrite DE Grund", cursive;
   color: grey;
@@ -112,8 +112,24 @@
   line-height: 1.3;
   font-size: 17px;
 }
+.home .content .lower li {
+  display: flex;
+  gap: 2px;
+  font-family: "Kanit", sans-serif;
+  align-items: center;
+  color: #8bb0e3;
+  font-family: "Lato", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
+  font-style: italic;
+}
+.home .content .lower li:hover{
+  color: grey;
+}
 @media screen and (max-width: 540px) {
   .home .content .lower p {
     font-size: 20px;
   }
+}
+.arrows {
+  width: 25px;
 }

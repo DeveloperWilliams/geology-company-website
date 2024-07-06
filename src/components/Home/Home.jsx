@@ -70,6 +70,7 @@ const Home = () => {
                 We provide expert solar installation services to harness clean
                 and renewable energy for your home or business.
               </p>
+              <li>Learn More <img className="arrows" src="./arrows.webp" alt="arrow" /></li>
             </motion.div>
           </Link>
           <Link className="content" ref={ref4}>
