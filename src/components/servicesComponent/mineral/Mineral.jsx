@@ -7,45 +7,40 @@ function Mineral() {
       <div className="mineral">
         <div className="top">
           <h6>Our Services</h6>
-          <h5>MINERAL PROSPECTING & RESOURCE MAPPING</h5>
+          <h5>MINING & GEOLOGY</h5>
         </div>
         <div className="bottom">
           <div className="upper">
             <div className="one">
-              <img src="./image/mineral.webp" />
+              <img src="./mine1.webp" />
             </div>
             <div className="two">
               <h6>
-                We're East Africa's Premier Mineral Prospecting and Resource
-                Mapping Experts, Transforming Prospects into Valuable Assets.
+                East Africa's Premier Mineral Prospecting and Resource Mapping
+                Experts: Transforming Prospects into Assets.
               </h6>
               <p>
                 Our mineral prospecting and resource mapping services ensure
-                effective utilization and sustainable management of mineral
-                resources, securing valuable assets for various industries. Our
-                expertise spans the following spectrum:
+                sustainable management of resources, securing valuable assets
+                for various industries. Our expertise includes:
               </p>
               <ul>
                 <li>
-                  <img src="./icon/checked.png" />
+                  <img src="./checked.webp" />
                   Industrial minerals and rocks; construction rocks quarry
                   assessments and valuation.
                 </li>
                 <li>
-                  <img src="./icon/checked.png" />
+                  <img src="./checked.webp" />
                   Hydrocarbons; geothermal vents.
                 </li>
                 <li>
-                  <img src="./icon/checked.png" />
+                  <img src="./checked.webp" />
                   Heavy Metals such as gold, copper, etc.
                 </li>
                 <li>
-                  <img src="./icon/checked.png" />
+                  <img src="./checked.webp" />
                   Rare Earth Elements (REEs).
-                </li>
-                <li>
-                  <img src="./icon/checked.png" />
-                  Strategic Minerals.
                 </li>
               </ul>
             </div>

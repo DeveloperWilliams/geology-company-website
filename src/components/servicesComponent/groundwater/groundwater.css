@@ -22,15 +22,6 @@
   color: grey;
 }
 .ground .top h5 {
-  font-family: "Pacifico", cursive;
-  font-family: "Kanit", sans-serif;
-  font-family: "Roboto Slab", serif;
-  font-family: "Rowdies", sans-serif;
-  font-family: "Zilla Slab", serif;
-  font-family: "Lilita One", sans-serif;
-  font-family: "Outfit", sans-serif;
-  font-family: "Josefin Sans", sans-serif;
-  font-family: "Playwrite DE Grund", cursive;
   font-family: "Oswald", sans-serif;
   font-size: 18px;
   font-size: 34px;
@@ -94,6 +85,7 @@
 }
 .ground .bottom .upper .two p {
   font-family: "Josefin Sans", sans-serif;
+  font-family: "Playwrite DE Grund", cursive;
   line-height: 1.5;
   font-weight: 300;
   margin-top: 20px;
@@ -140,13 +132,6 @@
   }
 }
 .middle p {
-  font-family: "Pacifico", cursive;
-  font-family: "Kanit", sans-serif;
-  font-family: "Roboto Slab", serif;
-  font-family: "Rowdies", sans-serif;
-  font-family: "Zilla Slab", serif;
-  font-family: "Lilita One", sans-serif;
-  font-family: "Outfit", sans-serif;
   font-family: "Josefin Sans", sans-serif;
   color: grey;
   text-align: right;

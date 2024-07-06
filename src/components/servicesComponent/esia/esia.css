@@ -1,7 +1,7 @@
-.mineral {
-   background-image: url("./bg2.jpg");
+.esia {
+    background-color: aliceblue;
   }
-  .mineral .top {
+  .esia .top {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,91 +9,90 @@
     flex-direction: column;
     gap: 30px;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgb(10, 10, 1)),
-      url("./mining.webp");
+      url("./wind.webp");
     background-position: center;
     background-size: cover;
     height: 330px;
     background-repeat: no-repeat;
   }
-  .mineral .top h6 {
-    font-family: "Playwrite DE Grund", cursive;
+  .esia .top h6 {
+    font-family: "Josefin Slab", serif;
     font-size: 18px;
     color: ghostwhite;
-    color: grey;
   }
-  .mineral .top h5 {
-    font-family: "Oswald", sans-serif;
+  .esia .top h5 {
+    font-family: "Amaranth", sans-serif;
     font-size: 18px;
     font-size: 34px;
     color: #5f9ea0;
   }
   
-  .mineral .bottom {
+  .esia .bottom {
     padding: 10px 120px;
     margin-top: 40px;
     padding-bottom: 50px;
   }
   @media screen and (max-width: 1024px) {
-    .mineral .bottom {
+    .esia .bottom {
       padding: 50px 20px;
     }
   }
-  .mineral #bottom {
+  .esia #bottom {
     padding: 10px 120px;
     padding-bottom: 40px;
   }
   @media screen and (max-width: 1024px) {
-    .mineral #bottom {
+    .esia #bottom {
       padding: 50px 20px;
     }
   }
-  .mineral .bottom .upper {
+  .esia .bottom .upper {
     display: flex;
     gap: 20px;
   }
   @media screen and (max-width: 700px) {
-    .mineral .bottom .upper {
+    .esia .bottom .upper {
       flex-direction: column;
     }
   }
   
-  .mineral #bottom .upper {
+  .esia #bottom .upper {
     flex-direction: row-reverse;
   }
   @media screen and (max-width: 700px) {
-    .mineral #bottom .upper {
+    .esia #bottom .upper {
       flex-direction: column;
     }
   }
-  .mineral .bottom .upper .one {
+  .esia .bottom .upper .one {
     flex: 1.1;
   }
-  .mineral .bottom .upper .one img {
+  .esia .bottom .upper .one img {
     height: 100%;
     width: 100%;
   }
-  .mineral .bottom .upper .two {
+  .esia .bottom .upper .two {
     flex: 1;
     padding: 10px;
   }
-  .mineral .bottom .upper .two h6 {
-    font-family: "Playwrite DE Grund", cursive;
+  .esia .bottom .upper .two h6 {
+    font-family: "Amaranth", sans-serif;
     font-size: 18px;
-    font-size: 17px;
+    font-size: 24px;
     color: #5f9ea0;
-    line-height: 1.5;
+    line-height: 1.3;
   }
-  .mineral .bottom .upper .two p {
+  .esia .bottom .upper .two p {
     font-family: "Josefin Sans", sans-serif;
     line-height: 1.5;
     font-weight: 300;
     margin-top: 20px;
     font-size: 19px;
   }
-  .mineral .bottom .upper ul img {
+  .esia .bottom .upper ul img {
     height: 20px;
   }
-  .mineral .bottom .upper ul {
+  .esia .bottom .upper ul {
     list-style: none;
     margin-top: 20px;
     display: flex;
@@ -101,13 +100,13 @@
     gap: 13px;
     padding-left: 20px;
   }
-  .mineral .bottom .upper ul li {
+  .esia .bottom .upper ul li {
     display: flex;
     align-items: center;
     align-items: start;
     gap: 10px;
-    font-family: "Josefin Sans", sans-serif;
+    font-family: "Josefin Slab", serif;
     line-height: 1.4;
-    font-size: 15px;
+    font-size: 19px;
   }
   
