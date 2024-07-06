@@ -8,7 +8,7 @@ function Groundwater() {
       <div className="ground">
         <div className="top">
           <h6>Our Services</h6>
-          <h5>GROUNDWATER MANAGEMENT & HYDROGEOLOGY</h5>
+          <h5>Groundwater Management</h5>
         </div>
         <div className="bottom">
           <div className="upper">
@@ -21,21 +21,15 @@ function Groundwater() {
                 Dreams Come to Life.
               </h6>
               <p>
-                Our borehole drilling services provide efficient access to
-                groundwater, ensuring reliable water sources for domestic,
-                agricultural, and industrial needs. Our Expertise extend across
-                the following spectrum;
+                Our borehole drilling services efficiently access groundwater,
+                ensuring reliable water sources for domestic, agricultural, and
+                industrial needs.
               </p>
               <ul>
                 <li>
                   <img src="./checked.webp" />
                   Borehole drilling contract management and supervision to meet
                   Kenyan and international standards.
-                </li>
-                <li>
-                  <img src="./checked.webp" />
-                  Borehole design and construction in accordance with the Kenyan
-                  and international standards.
                 </li>
                 <li>
                   <img src="./checked.webp" />
