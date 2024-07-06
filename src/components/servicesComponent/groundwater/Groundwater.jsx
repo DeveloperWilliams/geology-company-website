@@ -1,7 +1,6 @@
 import React from "react";
 import "./groundwater.css";
 import { Link } from "react-router-dom";
-import Cont from "../cont-service/Cont";
 
 function Groundwater() {
   return (
@@ -116,7 +115,6 @@ function Groundwater() {
           </div>
         </div>
       </div>
-      <Cont/>
     </>
   );
 }

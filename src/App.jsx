@@ -7,6 +7,7 @@ import Contact from "./components/Contanct/Contact";
 import About from "./components/about/About";
 import ScrollToTop from "./components/ScrollToTop";
 import Hire from "./components/hire/Hire";
+import Groundwater from "./components/servicesComponent/groundwater/Groundwater";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
         <Route path="/" element={<Home />}></Route>
         <Route path="/contact" element={<Contact />}></Route>
         <Route path="/about-us" element={<About />}></Route>
+        <Route path="/ground-water-management" element={<Groundwater/>}></Route>
       </Routes>
       <Hire/>
       <Footer />
