@@ -1,5 +1,10 @@
 /* src/SpinningImage.css */
-
+.loader{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .spinning-border {
     width: 200px; /* Adjust as needed */
     height: 200px; /* Adjust as needed */
