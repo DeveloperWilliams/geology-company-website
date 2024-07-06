@@ -28,14 +28,20 @@ const Home = () => {
             <motion.div
               className="lower"
               initial={{ x: -200, opacity: 0 }}
-              animate={isInView1 ? { x: 0, opacity: 1 } : { x: -300, opacity: 0 }}
-              transition={{ duration: 1 } }
+              animate={
+                isInView1 ? { x: 0, opacity: 1 } : { x: -300, opacity: 0 }
+              }
+              transition={{ duration: 1 }}
             >
               <h6>Ground Water Management</h6>
               <p>
                 We specialize in efficient ground water management and borehole
                 drilling to secure a sustainable water supply
               </p>
+              <li>
+                Learn More{" "}
+                <img className="arrows" src="./arrows.webp" alt="arrow" />
+              </li>
             </motion.div>
           </Link>
           <Link className="content" ref={ref2}>
@@ -45,7 +51,9 @@ const Home = () => {
             <motion.div
               className="lower"
               initial={{ x: 200, opacity: 0 }}
-              animate={isInView2 ? { x: 0, opacity: 1 } : { x: 200, opacity: 0 }}
+              animate={
+                isInView2 ? { x: 0, opacity: 1 } : { x: 200, opacity: 0 }
+              }
               transition={{ duration: 1, delay: 1 }}
             >
               <h6>Geology and Minerals</h6>
@@ -53,6 +61,10 @@ const Home = () => {
                 Our geology and mineral services offer detailed analysis and
                 exploration to uncover valuable natural resources.
               </p>
+              <li>
+                Learn More{" "}
+                <img className="arrows" src="./arrows.webp" alt="arrow" />
+              </li>
             </motion.div>
           </Link>
           <Link className="content" ref={ref3}>
@@ -62,15 +74,20 @@ const Home = () => {
             <motion.div
               className="lower"
               initial={{ x: -200, opacity: 0 }}
-              animate={isInView3 ? { x: 0, opacity: 1 } : { x: -200, opacity: 0 }}
-              transition={{ duration: 1 , delay: 1.5}}
+              animate={
+                isInView3 ? { x: 0, opacity: 1 } : { x: -200, opacity: 0 }
+              }
+              transition={{ duration: 1, delay: 1.5 }}
             >
               <h6>Solar Systems</h6>
               <p>
                 We provide expert solar installation services to harness clean
                 and renewable energy for your home or business.
               </p>
-              <li>Learn More <img className="arrows" src="./arrows.webp" alt="arrow" /></li>
+              <li>
+                Learn More{" "}
+                <img className="arrows" src="./arrows.webp" alt="arrow" />
+              </li>
             </motion.div>
           </Link>
           <Link className="content" ref={ref4}>
@@ -80,7 +97,9 @@ const Home = () => {
             <motion.div
               className="lower"
               initial={{ x: 200, opacity: 0 }}
-              animate={isInView4 ? { x: 0, opacity: 1 } : { x: 200, opacity: 0 }}
+              animate={
+                isInView4 ? { x: 0, opacity: 1 } : { x: 200, opacity: 0 }
+              }
               transition={{ duration: 1, delay: 0.8 }}
             >
               <h6>Griding Survey</h6>
@@ -88,6 +107,10 @@ const Home = () => {
                 Our precision griding survey services ensure accurate land
                 measurements for your projects.
               </p>
+              <li>
+                Learn More{" "}
+                <img className="arrows" src="./arrows.webp" alt="arrow" />
+              </li>
             </motion.div>
           </Link>
         </div>
