@@ -59,8 +59,8 @@ const Navbar = () => {
               <Link className="serviceLinks" to="/solar-system">
                 Solar System
               </Link>
-              <Link className="serviceLinks" to="/grid-system">
-                Grid Systems
+              <Link className="serviceLinks" to="/grid-survey">
+                Griding Survey
               </Link>
             </ul>
           </Link>
@@ -107,8 +107,8 @@ const Navbar = () => {
               <Link onClick={CloseUl} className="serviceLinks" to="/solar-system">
                 Solar System
               </Link>
-              <Link onClick={CloseUl} className="serviceLinks" to="/grid-system">
-                Grid Systems
+              <Link onClick={CloseUl} className="serviceLinks" to="/grid-survey">
+                Grid Survey
               </Link>
             </div>
           </Link>
