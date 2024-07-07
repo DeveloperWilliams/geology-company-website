@@ -104,12 +104,12 @@
   left: 0;
   right: 0;
   z-index: 1000;
+  width: 100vw;
 }
 .container-small .top {
   height: 70px;
   background-image: url("./geo1.jpg");
   box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
-  padding: 0px 50px;
   width: inherit;
   display: flex;
   justify-content: space-between;
