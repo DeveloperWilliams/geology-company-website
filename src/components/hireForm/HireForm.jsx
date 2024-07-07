@@ -50,7 +50,7 @@ function EquipmentLeaseForm() {
             </div>
           </label>
         </div>
-        <div>
+        <div className="submit">
           <button>Submit</button>
         </div>
       </form>
