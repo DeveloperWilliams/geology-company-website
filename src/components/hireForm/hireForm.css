@@ -9,16 +9,33 @@
   flex-direction: column;
   gap: 30px;
 }
+@media screen and (max-width: 1024px) {
+    .hireForm{
+        padding: 120px 20px 30px;
+        height: max-content;
+    }
+}
+
 .hireForm h4 {
   font-size: 24px;
   font-family: "Josefin Sans", sans-serif;
   color: grey;
 }
 .hireForm form {
-  width: 600px;
+  width: 65%;
   display: flex;
   flex-direction: column;
   gap: 20px;
+}
+@media screen and (max-width: 1024px) {
+    .hireForm form{
+      width: 80%;
+    }
+}
+@media screen and (max-width: 540px) {
+    .hireForm form{
+      width: 100%;
+    }
 }
 .hireForm form div {
   display: flex;

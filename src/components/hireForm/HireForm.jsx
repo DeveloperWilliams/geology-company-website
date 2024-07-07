@@ -12,14 +12,14 @@ function EquipmentLeaseForm() {
         </div>
         <div>
           <select name="select">
-            <option value="" selected>
+            <option value=""  selected disabled>
               Select Equipment
             </option>
             <option value="electroseismic">Electroseismic</option>
             <option value="electromagnetic">Electromagnetic</option>
           </select>
           <select name="select">
-            <option value="" selected>
+            <option value="" selected disabled>
               Vehichle Included?
             </option>
             <option value="no">No</option>
@@ -40,13 +40,14 @@ function EquipmentLeaseForm() {
           <textarea
             name="msg"
             placeholder="Any Additional Comments?"
+            maxLength="300"
           ></textarea>
         </div>
         <div>
           <label className="accept">
             <div>
               Terms and Conditions of Equipment Lease Accept:
-              <input type="checkbox" /> 
+              <input type="checkbox" checked/> 
             </div>
           </label>
         </div>
