@@ -149,6 +149,7 @@
 .container-small .menu-content.visible {
   height: max-content;
   padding-bottom: 20px;
+  padding-top: 10px;
 }
 .container-small .menu-content a,
 .container-small .menu-content li {
@@ -175,6 +176,7 @@
 }
 .container-small .services div a {
   font-family: "Josefin Sans", sans-serif;
+  border-bottom: 0.005vw solid grey;
 }
 .container-small .services:hover div {
   display: flex;
