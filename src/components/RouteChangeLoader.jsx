@@ -12,7 +12,7 @@ const RouteChangeLoader = ({ children, beforeLoad, afterLoad }) => {
     setLoading(true);
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 1500); // Display loader for at least 1 second
+    }, 2000); // Display loader for at least 1 second
 
     return () => clearTimeout(timer);
   }, [location]);
