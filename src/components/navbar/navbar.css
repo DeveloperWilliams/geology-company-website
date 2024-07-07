@@ -27,8 +27,9 @@
 .container ul {
   display: flex;
   gap: 55px;
+  list-style: none;
 }
-.container ul a {
+.container ul li a {
   text-decoration: none;
   font-family: "Outfit", sans-serif;
   color: #8bb0e3;
@@ -39,7 +40,7 @@
   font-weight: 800;
 }
 
-.container ul a:not(.services ul a)::after {
+.container ul li a:not(.services ul li a)::after {
   content: "";
   position: absolute;
   width: 0%;
@@ -50,10 +51,10 @@
   transition: width 0.5s ease-in-out;
 }
 
-.container ul a:hover:not(.services)::after {
+.container ul li a:hover:not(.services)::after {
   width: 100%;
 }
-.container ul .active {
+.container ul li .active {
   color: #0066b2;
   font-weight: bold;
 }
@@ -77,15 +78,21 @@
   display: none;
   box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
   z-index: 1000;
+  list-style: none;
 }
-.services ul a {
+.services ul li {
   font-family: "Josefin Sans", sans-serif;
   font-size: 15px;
-  padding: 15px 12px;
   border-top: 1px solid #8bb0e3;
   font-weight: normal;
+  padding: 10px 12px;
 }
-.services ul a:hover {
+.services ul li a{
+  width: fit-content;
+  font-weight: 300;
+  font-family: "Josefin Sans", sans-serif;
+}
+.services ul li:hover {
   background-color: #8bb0e3;
 }
 .logo img {
@@ -143,7 +150,8 @@
   height: max-content;
   padding-bottom: 20px;
 }
-.container-small .menu-content a, .container-small .menu-content li {
+.container-small .menu-content a,
+.container-small .menu-content li {
   text-decoration: none;
   font-family: "Roboto Slab", serif;
   color: grey;

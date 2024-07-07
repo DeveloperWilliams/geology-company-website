@@ -3,7 +3,9 @@ import "./navbar.css";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
-  const [active, setActive] = useState(localStorage.getItem("activeLink") || "home");
+  const [active, setActive] = useState(
+    localStorage.getItem("activeLink") || "home"
+  );
   const [isMenuVisible, setMenuVisibility] = useState(false);
 
   useEffect(() => {
@@ -33,44 +35,60 @@ const Navbar = () => {
           </Link>
         </div>
         <ul>
-          <Link
-            to="/"
-            className={active === "home" ? "active" : ""}
-            onClick={() => handleClick("home")}
-          >
-            Home
-          </Link>
-          <Link
-            to="/about-us"
-            className={active === "about" ? "active" : ""}
-            onClick={() => handleClick("about")}
-          >
-            About Us
-          </Link>
-          <Link className="services">
-            Services
-            <ul className="serviceUl">
-              <Link className="serviceLinks" to="/ground-water-management">
-                Groundwater Management
-              </Link>
-              <Link className="serviceLinks" to="/geology-and-minerals">
-                Geology and Minerals
-              </Link>
-              <Link className="serviceLinks" to="/solar-system">
-                Solar System
-              </Link>
-              <Link className="serviceLinks" to="/grid-survey">
-                Griding Survey
-              </Link>
-            </ul>
-          </Link>
-          <Link
-            to="/contact"
-            className={active === "contact" ? "active" : ""}
-            onClick={() => handleClick("contact")}
-          >
-            Contact Us
-          </Link>
+          <li>
+            <Link
+              to="/"
+              className={active === "home" ? "active" : ""}
+              onClick={() => handleClick("home")}
+            >
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="/about-us"
+              className={active === "about" ? "active" : ""}
+              onClick={() => handleClick("about")}
+            >
+              About Us
+            </Link>
+          </li>
+          <li>
+            <Link className="services">
+              Services
+              <ul className="serviceUl">
+                <li>
+                  <Link className="serviceLinks" to="/ground-water-management">
+                    Groundwater Management
+                  </Link>
+                </li>
+                <li>
+                  <Link className="serviceLinks" to="/geology-and-minerals">
+                    Geology and Minerals
+                  </Link>
+                </li>
+                <li>
+                  <Link className="serviceLinks" to="/solar-system">
+                    Solar System
+                  </Link>
+                </li>
+                <li>
+                  <Link className="serviceLinks" to="/grid-survey">
+                    Griding Survey
+                  </Link>
+                </li>
+              </ul>
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="/contact"
+              className={active === "contact" ? "active" : ""}
+              onClick={() => handleClick("contact")}
+            >
+              Contact Us
+            </Link>
+          </li>
         </ul>
       </div>
 
@@ -98,16 +116,32 @@ const Navbar = () => {
           <li className="services">
             Services{" "}
             <div className="serviceUl">
-              <Link onClick={CloseUl} className="serviceLinks" to="/ground-water-management">
+              <Link
+                onClick={CloseUl}
+                className="serviceLinks"
+                to="/ground-water-management"
+              >
                 Groundwater Management
               </Link>
-              <Link onClick={CloseUl} className="serviceLinks" to="/geology-and-minerals">
+              <Link
+                onClick={CloseUl}
+                className="serviceLinks"
+                to="/geology-and-minerals"
+              >
                 Geology and Minerals
               </Link>
-              <Link onClick={CloseUl} className="serviceLinks" to="/solar-system">
+              <Link
+                onClick={CloseUl}
+                className="serviceLinks"
+                to="/solar-system"
+              >
                 Solar System
               </Link>
-              <Link onClick={CloseUl} className="serviceLinks" to="/grid-survey">
+              <Link
+                onClick={CloseUl}
+                className="serviceLinks"
+                to="/grid-survey"
+              >
                 Grid Survey
               </Link>
             </div>
