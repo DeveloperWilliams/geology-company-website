@@ -95,7 +95,7 @@ const Navbar = () => {
           >
             About Us
           </Link>
-          <Link className="services">
+          <li className="services">
             Services{" "}
             <div className="serviceUl">
               <Link onClick={CloseUl} className="serviceLinks" to="/ground-water-management">
@@ -111,7 +111,7 @@ const Navbar = () => {
                 Grid Survey
               </Link>
             </div>
-          </Link>
+          </li>
           <Link
             to="/contact"
             className={active === "contact" ? "active" : ""}

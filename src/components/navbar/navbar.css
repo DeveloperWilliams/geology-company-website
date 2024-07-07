@@ -110,10 +110,13 @@
   height: 70px;
   background-image: url("./geo1.jpg");
   box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
-  width: inherit;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0px 35px;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 .container-small .top img {
@@ -140,11 +143,12 @@
   height: max-content;
   padding-bottom: 20px;
 }
-.container-small .menu-content a {
+.container-small .menu-content a, .container-small .menu-content li {
   text-decoration: none;
   font-family: "Roboto Slab", serif;
   color: grey;
   padding: 10px;
+  list-style: none;
 }
 .container-small .menu-content .active {
   color: #0066b2;

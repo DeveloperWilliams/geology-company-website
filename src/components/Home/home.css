@@ -70,7 +70,7 @@
 }
 @media screen and (max-width: 540px) {
   .hero .content {
-    height: 460px;
+    height: 465px;
   }
   .hero .content:nth-child(2) {
     flex-direction: column-reverse;
@@ -78,7 +78,7 @@
 }
 @media screen and (max-width: 540px) {
   .hero .content {
-    height: 460px;
+    height: 480px;
   }
   .hero .content:nth-child(4) {
     flex-direction: column-reverse;
@@ -86,7 +86,7 @@
 }
 
 .home .content .top {
-  height: 63%;
+  height: 60%;
   background-color: transparent;
 }
 .home .content .top img {

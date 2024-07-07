@@ -23,7 +23,7 @@ const Home = () => {
         <div className="home">
           <Link className="content" ref={ref1} to='/ground-water-management'>
             <div className="top">
-              <img src="./bore.webp" alt="borehole" loading="lazy" />
+              <img src="./groundwater2.webp" alt="borehole" loading="lazy" />
             </div>
             <motion.div
               className="lower"
