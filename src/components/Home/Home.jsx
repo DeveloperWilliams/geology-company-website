@@ -33,7 +33,7 @@ const Home = () => {
               }
               transition={{ duration: 1 }}
             >
-              <h6>Ground Water Management</h6>
+              <h5>Ground Water Management</h5>
               <p>
                 We specialize in efficient ground water management and borehole
                 drilling to secure a sustainable water supply
@@ -56,7 +56,7 @@ const Home = () => {
               }
               transition={{ duration: 1, delay: 1 }}
             >
-              <h6>Geology and Minerals</h6>
+              <h5>Geology and Minerals</h5>
               <p>
                 Our geology and mineral services offer detailed analysis and
                 exploration to uncover valuable natural resources.
@@ -79,7 +79,7 @@ const Home = () => {
               }
               transition={{ duration: 1, delay: 1.5 }}
             >
-              <h6>Solar Systems</h6>
+              <h5>Solar Systems</h5>
               <p>
                 We provide expert solar installation services to harness clean
                 and renewable energy for your home or business.
@@ -102,7 +102,7 @@ const Home = () => {
               }
               transition={{ duration: 1, delay: 0.8 }}
             >
-              <h6>Griding Survey</h6>
+              <h5>Griding Survey</h5>
               <p>
                 Our precision griding survey services ensure accurate land
                 measurements for your projects.
