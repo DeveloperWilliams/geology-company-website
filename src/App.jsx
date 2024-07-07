@@ -13,6 +13,7 @@ import Groundwater from "./components/servicesComponent/groundwater/Groundwater"
 import Mineral from "./components/servicesComponent/mineral/Mineral";
 import Esia from "./components/servicesComponent/esia/Esia";
 import RouteChangeLoader from "./components/RouteChangeLoader";
+import EquipmentLeaseForm from "./components/hireForm/HireForm";
 
 const App = () => {
   return (
@@ -38,6 +39,7 @@ const App = () => {
           <Route path="/ground-water-management" element={<Groundwater />} />
           <Route path="/geology-and-minerals" element={<Mineral />} />
           <Route path="/solar-system" element={<Esia />} />
+          <Route path="/hire-equipment" element={<EquipmentLeaseForm/>}></Route>
         </Routes>
       </RouteChangeLoader>
     </>

@@ -1,0 +1,11 @@
+.hireForm {
+  padding: 120px;
+  background-image: url("./bg2.jpg");
+  background-size: cover;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+}

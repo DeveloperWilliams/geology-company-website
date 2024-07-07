@@ -1,54 +1,53 @@
-import React from "react";
+import React, { useState } from "react";
+import "./hireForm.css";
 
-const HireForm = () => {
+function EquipmentLeaseForm() {
   return (
-    <div>
+    <div className="hireForm">
+      <h4>Hire Equipments</h4>
       <form>
         <div>
-          <input type="text" placeholder="First Name" required />
-          <input type="text" placeholder="Surname Name" required />
+          <input type="text" placeholder="First Name" />
+          <input type="text" placeholder="Surname" />
         </div>
         <div>
-          <select name="select" required>
-            <option value="not" disabled selected>
-              Choose Equipment
+          <select name="select">
+            <option value="" selected>
+              Select Equipment
             </option>
-            <option value="Electroseismic">Electroseismic</option>
-            <option value="Electromagnetic">Electromagnetic</option>
+            <option value="electroseismic">Electroseismic</option>
+            <option value="electromagnetic">Electromagnetic</option>
           </select>
-          <div>
-            <label>
-              Vehicle Included:
-              <input type="checkbox" name="vehicleIncluded" />
-            </label>
-          </div>
+          <label>
+            Vehicle Included?
+            <input type="checkbox" />
+          </label>
         </div>
         <div>
           <label>
             Pickup Date:
-            <input type="date" />
+            <input type="date" required />
           </label>
           <label>
             Return Date:
-            <input type="date" name="returnDate" />
+            <input type="date" required />
           </label>
         </div>
         <div>
-          <textarea name="msg" placeholder="Leave Comments Here" />
+          <textarea name="msg"></textarea>
         </div>
         <div>
           <label>
             Terms and Conditions of Equipment Lease:
-            <input type="checkbox" />
-            Accept
+            <input type="checkbox" /> Accept
           </label>
         </div>
         <div>
-          <button type="submit">Order Now</button>
+          <button>Submit</button>
         </div>
       </form>
     </div>
   );
-};
+}
 
-export default HireForm;
+export default EquipmentLeaseForm;
