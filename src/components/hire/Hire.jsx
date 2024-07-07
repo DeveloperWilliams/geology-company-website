@@ -22,7 +22,7 @@ const Hire = () => {
           animate={inView ? { y: 0, opacity: 1 } : { y: 100, opacity: 0 }}
           transition={{ duration: 1, delay: 0.4 }}
         >
-          <Link to="/equipment">Lease Equipment Now</Link>
+          <Link to="/hire-equipment">Lease Equipment Now</Link>
         </motion.div>
       </div>
     </>
