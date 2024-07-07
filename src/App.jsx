@@ -37,7 +37,7 @@ const App = () => {
           <Route path="/about-us" element={<About />} />
           <Route path="/ground-water-management" element={<Groundwater />} />
           <Route path="/geology-and-minerals" element={<Mineral />} />
-          <Route path="/solar-survey" element={<Esia />} />
+          <Route path="/solar-system" element={<Esia />} />
         </Routes>
       </RouteChangeLoader>
     </>
