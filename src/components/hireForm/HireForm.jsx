@@ -18,15 +18,18 @@ function EquipmentLeaseForm() {
             <option value="electroseismic">Electroseismic</option>
             <option value="electromagnetic">Electromagnetic</option>
           </select>
-          <label>
-            Vehicle Included?
-            <input type="checkbox" />
-          </label>
+          <select name="select">
+            <option value="" selected>
+              Vehichle Included?
+            </option>
+            <option value="no">No</option>
+            <option value="yes">Yes</option>
+          </select>
         </div>
         <div>
           <label>
             Pickup Date:
-            <input type="date" required />
+            <input type="date" required placeholder="Pickup Date:" />
           </label>
           <label>
             Return Date:
@@ -34,12 +37,17 @@ function EquipmentLeaseForm() {
           </label>
         </div>
         <div>
-          <textarea name="msg"></textarea>
+          <textarea
+            name="msg"
+            placeholder="Any Additional Comments?"
+          ></textarea>
         </div>
         <div>
-          <label>
-            Terms and Conditions of Equipment Lease:
-            <input type="checkbox" /> Accept
+          <label className="accept">
+            <div>
+              Terms and Conditions of Equipment Lease Accept:
+              <input type="checkbox" /> 
+            </div>
           </label>
         </div>
         <div>
