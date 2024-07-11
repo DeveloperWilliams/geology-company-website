@@ -35,11 +35,20 @@
   color: #8bb0e3;
   color: grey;
   font-size: 18px;
-  padding: 30px 12px;
   position: relative;
   font-weight: 800;
 }
-
+.container ul li{
+  text-decoration: none;
+  font-family: "Outfit", sans-serif;
+  color: #8bb0e3;
+  color: grey;
+  font-size: 18px;
+  padding: 30px 12px;
+  position: relative;
+  font-weight: 800;
+  cursor: pointer;
+}
 .container ul li a:not(.services ul li a)::after {
   content: "";
   position: absolute;
@@ -60,6 +69,9 @@
 }
 .services {
   position: relative;
+}
+.services .active{
+  color: #0066b2;
 }
 .services:hover {
   color: #0066b2;
@@ -82,10 +94,10 @@
 }
 .services ul li {
   font-family: "Josefin Sans", sans-serif;
-  font-size: 15px;
+  font-size: 10px;
   border-top: 1px solid #8bb0e3;
   font-weight: normal;
-  padding: 10px 12px;
+  padding: 11px 12px;
 }
 .services ul li a{
   width: fit-content;
