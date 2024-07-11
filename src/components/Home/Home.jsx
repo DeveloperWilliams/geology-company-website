@@ -21,7 +21,7 @@ const Home = () => {
       <div className="hero">
         <h3>Our Expertise</h3>
         <div className="home">
-          <Link className="content" ref={ref1} to='/ground-water-management'>
+          <Link className="content" ref={ref1} to="/ground-water-management">
             <div className="top">
               <img src="./groundwater2.webp" alt="borehole" loading="lazy" />
             </div>
@@ -44,7 +44,7 @@ const Home = () => {
               </li>
             </motion.div>
           </Link>
-          <Link className="content" ref={ref2} to='/geology-and-minerals'>
+          <Link className="content" ref={ref2} to="/geology-and-minerals">
             <div className="top">
               <img src="./mine.webp" alt="Ground" loading="lazy" />
             </div>
@@ -67,7 +67,7 @@ const Home = () => {
               </li>
             </motion.div>
           </Link>
-          <Link className="content" ref={ref3} to='/solar-system'>
+          <Link className="content" ref={ref3} to="/solar-system">
             <div className="top">
               <img src="./solar.webp" alt="solar" loading="lazy" />
             </div>
@@ -90,7 +90,7 @@ const Home = () => {
               </li>
             </motion.div>
           </Link>
-          <Link className="content" ref={ref4}>
+          <Link className="content" ref={ref4} to="/grid-survey">
             <div className="top">
               <img src="./sv.webp" alt="survey" loading="lazy" />
             </div>
