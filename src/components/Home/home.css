@@ -70,7 +70,7 @@
 }
 @media screen and (max-width: 540px) {
   .hero .content {
-    height: 465px;
+    height: 470px;
   }
   .hero .content:nth-child(2) {
     flex-direction: column-reverse;
@@ -78,7 +78,7 @@
 }
 @media screen and (max-width: 540px) {
   .hero .content {
-    height: 480px;
+    height: 490px;
   }
   .hero .content:nth-child(4) {
     flex-direction: column-reverse;
