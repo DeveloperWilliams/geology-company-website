@@ -1,0 +1,50 @@
+.home {
+  height: max-content;
+  background-image: url("./bg2.jpg");
+  background-size: cover;
+  padding: 120px 100px 30px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+.myservices {
+  background-color: antiquewhite;
+  height: 250px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  position: relative;
+  overflow: hidden;
+}
+.myservices img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.5s ease;
+}
+.myservices:hover img{
+  scale: 1.3;
+}
+.home a {
+  text-decoration: none;
+  color: ghostwhite;
+  font-family: "Josefin Sans", sans-serif;
+}
+.home h1 {
+  font-size: 25px;
+}
+.txt{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  padding: 0px;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 0px;
+}
