@@ -9,20 +9,28 @@ const Hire = () => {
 
   return (
     <>
-      <div className="hire">
-        <div className="left" ref={ref}>
-          <h3>
-            Lease top-notch equipment from GeoTruth <br className="myBr" />
-            today!
-          </h3>
-        </div>
+      <div className="hire" ref={ref}>
         <motion.div
           className="right"
           initial={{ y: 100, opacity: 0 }}
           animate={inView ? { y: 0, opacity: 1 } : { y: 100, opacity: 0 }}
-          transition={{ duration: 1, delay: 0.4 }}
+          transition={{ duration: 0.5, delay: 0.2 }}
         >
-          <Link to="/hire-equipment">Lease Equipment Now</Link>
+          <Link to="/hire-equipment">
+            {" "}
+            <button>Lease Geophyscical Equipments</button>
+          </Link>
+        </motion.div>
+        <div class="vertical-line"></div>
+        <motion.div
+          className="right"
+          initial={{ y: 100, opacity: 0 }}
+          animate={inView ? { y: 0, opacity: 1 } : { y: 100, opacity: 0 }}
+          transition={{ duration: 0.5, delay: 0.6 }}
+        >
+          <Link to="/grid-survey">
+            <button>Gridding Survey</button>
+          </Link>
         </motion.div>
       </div>
     </>

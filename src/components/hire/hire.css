@@ -1,10 +1,10 @@
 .hire {
-  background-color: aliceblue;
+  background-image: url("./bc.jpg");
   padding: 50px 120px;
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  gap: 30px;
+  justify-content: center;
+  gap: 0px;
 }
 @media screen and (max-width: 912px) {
   .hire {
@@ -38,13 +38,27 @@
       line-height: 1.6;
     }
   }
-.hire .right {
-  flex: 2;
-}
-.hire .right a {
+
+.hire .right button  {
   text-decoration: none;
-  padding: 15px 30px;
-  color: aliceblue;
+  padding: 15px 0px;
+  border: 0px;
+  width: 250px;
+  cursor: pointer;
   background-color: #8bb0e3;
   font-family: "Playwrite DE Grund", cursive;
+  font-size: 13px;
+  font-family: "Josefin Sans", sans-serif;
+  color: aliceblue;  
 }
+.hire .right button a{
+  text-decoration: none;
+  width: max-content;
+}
+.vertical-line {
+  width: 1px;
+  height: 100px; /* Adjust the height as needed */
+  background-color: gray;
+  margin: 0px 25px;
+}
+
