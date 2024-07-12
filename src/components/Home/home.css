@@ -7,6 +7,13 @@
   grid-template-columns: repeat(2, 1fr);
   gap: 30px;
 }
+@media screen and (max-width: 550px) {
+  .home {
+    grid-template-columns: 1fr;
+    padding: 120px 20px 30px;
+  }
+  
+}
 .myservices {
   background-color: antiquewhite;
   height: 250px;
