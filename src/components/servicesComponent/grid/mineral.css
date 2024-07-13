@@ -87,8 +87,13 @@
     font-family: "Josefin Sans", sans-serif;
     line-height: 1.5;
     font-weight: 300;
-    margin-top: 20px;
+    margin-top: 13px;
     font-size: 19px;
+  }
+  .mineral .bottom .upper .two p em{
+    color: #5f9ea0;
+    padding-top: 18px;
+    font-weight: 500;
   }
   .mineral .bottom .upper ul img {
     height: 20px;

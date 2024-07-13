@@ -1,5 +1,6 @@
 import React from "react";
 import "./mineral.css";
+import YouTubeEmbed from "../Youtube/Youtube";
 
 function Grid() {
   return (
@@ -12,48 +13,51 @@ function Grid() {
         <div className="bottom">
           <div className="upper">
             <div className="one">
-              <img src="./geo8.webp" />
+              <img src="./gri.webp" />
             </div>
             <div className="two">
               <h6>
                 Geotechnical Gridding Experts, turning your visions into
                 reality.
               </h6>
-              <p>
-                Our geotechnical gridding services are designed to provide
-                precise and reliable subsurface information for a variety of
-                applications.
-              </p>
               <ul>
-                <li>
-                  <img src="./checked.webp" />
-                  Accurate Subsurface Mapping: Precise mapping for construction,
-                  mining, and environmental projects.
-                </li>
-                <li>
-                  <img src="./checked.webp" />
-                  Soil and Rock Sampling: Detailed sampling to analyze
-                  geotechnical properties for stability and safety.
-                </li>
-                <li>
-                  <img src="./checked.webp" />
-                  Ground Penetrating Radar (GPR): Detecting and mapping
-                  underground utilities and structures without excavation.
-                </li>
-                <li>
-                  <img src="./checked.webp" />
-                  Seismic Refraction Surveys: Determining soil and rock layer
-                  depths and compositions.
-                </li>
-                <li>
-                  <img src="./checked.webp" />
-                  Geotechnical Data Analysis: Comprehensive data analysis and
-                  actionable reports.
-                </li>
+                <p>
+                  No single project will have an exact outcome. As such, we
+                  understand that different environmental settings will pose
+                  different challenges to the project implementation. Thus, we
+                  employ specific or a combination of tools and geophysical
+                  techniques to study a site for more accurate and actionable
+                  deductions. Most notably, we conduct gridding surveys. <br />
+                  <em> Why Gridding Surveys?</em>
+                </p>
+                <p>
+                  3D Gridding surveys involve conducting closely spaced
+                  soundings in a grid format (see Fig), covering the target
+                  area, to delineate subsurface conditions. This scope,
+                  recommended for properties larger than 2 acres, is more
+                  refined, and highest resolution depicting the distribution of
+                  target aquifers and their variation is achieved for higher
+                  confidence. The technique is best for detecting the geometry
+                  of saline water intrusion or fractured aquifers in low success
+                  areas.
+                </p>
+                <p>
+                  The images are excerpts from aquifer characterisation studies
+                  conducted at Thitani, Mwingi Subcounty, Kitui County in the
+                  recent past. The 80-acre property was gridded at 20m intervals
+                  on both the x- and y- planes to map the geometry of the
+                  underlying aquifer after three drilling attempts yielded
+                  undesirable results: first two attempts turned DRY; third
+                  attempt tapped into an aquifer discharging 2m3hr-1 of saline
+                  water
+                </p>
               </ul>
             </div>
           </div>
         </div>
+      </div>
+      <div className="yt">
+        <YouTubeEmbed videoId="dk9Xvl6r9bs" />
       </div>
     </>
   );
