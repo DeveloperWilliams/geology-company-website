@@ -16,8 +16,8 @@ function Grid() {
             </div>
             <div className="two">
               <h6>
-                We are East Africa's Best Geotechnical Gridding Experts, turning
-                your visions into reality.
+                Geotechnical Gridding Experts, turning your visions into
+                reality.
               </h6>
               <p>
                 Our geotechnical gridding services are designed to provide
@@ -42,11 +42,13 @@ function Grid() {
                 </li>
                 <li>
                   <img src="./checked.webp" />
-                  Seismic Refraction Surveys: Determining soil and rock layer depths and compositions.
+                  Seismic Refraction Surveys: Determining soil and rock layer
+                  depths and compositions.
                 </li>
                 <li>
                   <img src="./checked.webp" />
-                  Geotechnical Data Analysis: Comprehensive data analysis and actionable reports.
+                  Geotechnical Data Analysis: Comprehensive data analysis and
+                  actionable reports.
                 </li>
               </ul>
             </div>
