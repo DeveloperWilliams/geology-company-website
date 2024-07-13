@@ -16,8 +16,8 @@ function Esia() {
             </div>
             <div className="two">
               <h6>
-                We're East Africa's leading solar installation specialists,
-                transforming solar potential into sustainable energy solutions.
+                Solar installation specialists, transforming solar potential
+                into sustainable energy solutions.
               </h6>
               <p>
                 Our Solar Installation Services promote sustainable solar energy

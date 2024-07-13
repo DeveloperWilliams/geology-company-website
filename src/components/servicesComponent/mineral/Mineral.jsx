@@ -7,7 +7,7 @@ function Mineral() {
       <div className="mineral">
         <div className="top">
           <h6>Our Services</h6>
-          <h5>MINING & GEOLOGY</h5>
+          <h5>GEOLOGY & MINERALS</h5>
         </div>
         <div className="bottom">
           <div className="upper">
@@ -15,10 +15,6 @@ function Mineral() {
               <img src="./mine1.webp" />
             </div>
             <div className="two">
-              <h6>
-                East Africa's Premier Mineral Prospecting and Resource Mapping
-                Experts: Transforming Prospects into Assets.
-              </h6>
               <p>
                 Our mineral prospecting and resource mapping services ensure
                 sustainable management of resources, securing valuable assets

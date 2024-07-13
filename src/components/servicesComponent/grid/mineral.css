@@ -29,8 +29,8 @@
   }
   
   .mineral .bottom {
-    padding: 10px 120px;
-    margin-top: 40px;
+    padding-top: 50px;
+    padding: 20px 120px;
     padding-bottom: 50px;
   }
   @media screen and (max-width: 1024px) {
