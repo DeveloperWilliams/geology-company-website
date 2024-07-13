@@ -29,7 +29,7 @@ const Hire = () => {
           transition={{ duration: 0.5, delay: 0.6 }}
         >
           <Link to="/grid-survey">
-            <button>Gridding Survey</button>
+            <button>3D Gridding Survey</button>
           </Link>
         </motion.div>
       </div>
