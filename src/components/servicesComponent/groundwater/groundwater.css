@@ -76,6 +76,11 @@
 .ground .bottom .upper .two {
   flex: 1;
   padding: 10px;
+  display: flex;
+  align-items: top;
+  justify-content: top;
+  flex-direction: column;
+
 }
 .ground .bottom .upper .two h6 {
   font-family: "Playwrite DE Grund", cursive;
@@ -86,10 +91,11 @@
 .ground .bottom .upper .two p {
   font-family: "Josefin Sans", sans-serif;
   font-family: "Playwrite DE Grund", cursive;
+  font-family: "Josefin Sans", sans-serif;
   line-height: 1.5;
   font-weight: 300;
   margin-top: 20px;
-  font-size: 17px;
+  font-size: 18px;
 }
 .ground .bottom .upper ul img {
   height: 20px;

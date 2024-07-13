@@ -16,10 +16,7 @@ function Groundwater() {
               <img src="./groundwater2.webp" />
             </div>
             <div className="two">
-              <h6>
-                We're East Africa's Best Borehole Drealling Experts, We make
-                Dreams Come to Life.
-              </h6>
+              <h6>Borehole Drealling Experts, We make Dreams Come to Life.</h6>
               <p>
                 Our borehole drilling services efficiently access groundwater,
                 ensuring reliable water sources for domestic, agricultural, and
@@ -52,8 +49,8 @@ function Groundwater() {
         {/* Borehole request */}
         <div className="middle">
           <p>
-            Looking for a sustainable water solution for your home, business,
-            or industry?
+            Looking for a sustainable water solution for your home, business, or
+            industry?
           </p>
           <div>
             <div className="div">
@@ -70,16 +67,11 @@ function Groundwater() {
               <img src="./ground1.webp" />
             </div>
             <div className="two">
-              <h6>
-                Get Proffesional Groundwater Quality Analysis, from East
-                Africa's Pro Hydrogeologists.
-              </h6>
-              <p>
-                Our hydrogeological analysis ensures efficient access to
-                groundwater, guaranteeing reliable water sources for diverse
-                needs.
-              </p>
               <ul>
+                <li>
+                  <img src="./checked.webp" />
+                  Comprehenisve gridding surveys for aquifer geometry mapping
+                </li>
                 <li>
                   <img src="./checked.webp" />
                   Aquifer characterisation: depth, thickness, yield and quality
