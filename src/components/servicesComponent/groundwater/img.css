@@ -1,15 +1,37 @@
 .slider {
-    width: 600px;
-    height: 400px;
-    margin: 0 auto;
-    overflow: hidden;
-    position: relative;
-  }
-  
-  .slider img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    position: absolute;
-    transition: opacity 1s ease-in-out;
-  }
+  width: 600px;
+  height: 400px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider img {
+  width: 600px;
+  height: 400px;
+  object-fit: cover;
+  transition: opacity 1s ease-in-out;
+}
+
+.nav-button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 10;
+  position: absolute; /* Ensure the buttons are positioned absolutely */
+  top: 50%; /* Position the top edge of the button at the vertical center */
+  transform: translateY(-50%); /* Shift the button up by 50% of its height */
+}
+
+.nav-button.left {
+  left: 10px;
+}
+
+.nav-button.right {
+  right: 10px;
+}

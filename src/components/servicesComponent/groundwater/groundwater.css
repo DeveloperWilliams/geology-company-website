@@ -80,7 +80,6 @@
   align-items: top;
   justify-content: top;
   flex-direction: column;
-
 }
 .ground .bottom .upper .two h6 {
   font-family: "Playwrite DE Grund", cursive;
@@ -166,4 +165,12 @@
 .middle a:hover {
   background-color: #b97b2f;
   color: ghostwhite;
+}
+.hb {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgb(10, 10, 1)),
+    url("./f.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
 }

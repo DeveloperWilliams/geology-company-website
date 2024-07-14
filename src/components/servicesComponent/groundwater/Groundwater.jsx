@@ -97,7 +97,7 @@ function Groundwater() {
           </div>
         </div>
       </div>
-      <ImageSlider/>
+     
     </>
   );
 }
