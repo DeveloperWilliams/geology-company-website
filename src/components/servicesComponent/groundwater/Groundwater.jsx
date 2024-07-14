@@ -97,7 +97,6 @@ function Groundwater() {
           </div>
         </div>
       </div>
-     
     </>
   );
 }
