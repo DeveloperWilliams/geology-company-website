@@ -67,10 +67,12 @@
   color: grey;
   padding: 0px 20px;
   font-family: "Oswald", sans-serif;
+  font-family: "Playwrite DE Grund", cursive;
+  font-size: 11px;
   letter-spacing: 0.2mm;
 }
 .contanct-home .bottom form textarea {
-  height: 150px;
+  height: 130px;
   resize: none;
   outline: none;
   width: 100%;
@@ -79,7 +81,8 @@
   padding: 20px;
   font-family: "Oswald", sans-serif;
   line-height: 1.9;
-  font-size: 13px;
+  font-family: "Playwrite DE Grund", cursive;
+  font-size: 12px;
   overflow: hidden;
 }
 .contanct-home .bottom form button {

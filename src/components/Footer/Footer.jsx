@@ -19,10 +19,10 @@ const Footer = () => {
           <div className="Fservices">
             <h3>Services</h3>
             <ul>
+              <Link to="/grid-survey">Gridding Survey</Link>
               <Link to="/ground-water-management">Groundwater Management</Link>
               <Link to="/geology-and-minerals">Geology and Minerals</Link>
               <Link to="/solar-system">Solar Systems</Link>
-              <Link to="/grid-survey">Gridding Survey</Link>
             </ul>
           </div>
           <div className="conta">

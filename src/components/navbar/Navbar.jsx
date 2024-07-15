@@ -121,7 +121,7 @@ const Navbar = () => {
       <div className="container-small">
         <div className="top">
           <img className="my-logo" src="./geotruth.webp" alt="Logo-Geotruth" />
-          <img src="./app.webp" alt="Menu" onClick={toggleMenu} />
+          <img src="./menu.webp" alt="Menu" onClick={toggleMenu} />
         </div>
         <div className={`menu-content ${isMenuVisible ? "visible" : ""}`}>
           <Link
