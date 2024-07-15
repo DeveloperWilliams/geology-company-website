@@ -20,7 +20,7 @@ function Groundwater() {
               <p>
                 Our borehole drilling services efficiently access groundwater,
                 ensuring reliable water sources for domestic, agricultural, and
-                industrial needs..
+                industrial needs.
               </p>
               <ul>
                 <li>
