@@ -68,7 +68,7 @@
   padding: 0px 20px;
   font-family: "Oswald", sans-serif;
   font-family: "Playwrite DE Grund", cursive;
-  font-size: 11px;
+  font-size: 13px;
   letter-spacing: 0.2mm;
 }
 .contanct-home .bottom form textarea {
@@ -82,7 +82,7 @@
   font-family: "Oswald", sans-serif;
   line-height: 1.9;
   font-family: "Playwrite DE Grund", cursive;
-  font-size: 12px;
+  font-size: 13px;
   overflow: hidden;
 }
 .contanct-home .bottom form button {
@@ -91,8 +91,10 @@
   border: 2px solid bisque;
   cursor: pointer;
   font-family: "Oswald", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   width: 40%;
   color: grey;
+  font-weight: 800;
 }
 .contanct-home .bottom .right {
   display: flex;
@@ -111,6 +113,9 @@
   align-items: center;
   color: rgb(19, 19, 19);
   font-family: "Oswald", sans-serif;
+  font-family: "Playwrite DE Grund", cursive;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 15px;
 }
 .contanct-home .bottom .right ul a:hover {
   color: #8bb0e3;

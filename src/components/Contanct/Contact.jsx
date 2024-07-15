@@ -53,11 +53,11 @@ const Contact = () => {
             <ul>
               <Link to="tel:+254731440843">
                 <img src="./telephone.webp" alt="Whats" />
-                +254 731 440843
+                +254 - 731 - 440843
               </Link>
               <Link to="http://wa.link/402pta" target="_blank">
                 <img src="./whatsapp.webp" alt="Whats" />
-                +254 731 440843
+                +254 - 731 - 440843
               </Link>
               <Link to="mailto:nfo@geotruthconsult.org" target="_blank">
                 <img src="./email.webp" alt="Email" />
