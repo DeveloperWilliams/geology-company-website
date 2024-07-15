@@ -17,7 +17,6 @@ function Groundwater() {
               <img src="./groundwater2.webp" />
             </div>
             <div className="two">
-              <h6>Borehole Drealling Experts, We make Dreams Come to Life.</h6>
               <p>
                 Our borehole drilling services efficiently access groundwater,
                 ensuring reliable water sources for domestic, agricultural, and
@@ -96,6 +95,7 @@ function Groundwater() {
             </div>
           </div>
         </div>
+
       </div>
     </>
   );
