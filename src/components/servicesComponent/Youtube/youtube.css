@@ -2,13 +2,23 @@
   padding: 0px 120px;
   background-image: url("./bg2.jpg");
 }
+@media screen and (max-width: 550px) {
+  .my-cont{
+    padding: 0px 30px;
+  }
+}
 .video-responsive {
   overflow: hidden;
   padding-bottom: 36.25%;
   position: relative;
   height: 0;
 }
-
+@media screen and (max-width: 550px) {
+  .video-responsive{
+  padding-bottom: 60.25%;
+    
+  }
+}
 .video-responsive iframe {
   left: 0;
   top: 0;

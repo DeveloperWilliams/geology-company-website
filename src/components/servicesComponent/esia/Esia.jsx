@@ -15,10 +15,6 @@ function Esia() {
               <img src="./solar1.webp" />
             </div>
             <div className="two">
-              <h6>
-                Solar installation specialists, transforming solar potential
-                into sustainable energy solutions.
-              </h6>
               <p>
                 Our Solar Installation Services promote sustainable solar energy
                 management, safeguarding assets across industries and advancing

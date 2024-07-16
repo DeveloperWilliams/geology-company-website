@@ -30,7 +30,7 @@
 .ground .bottom {
   padding: 50px 120px;
   padding-bottom: 20px;
-  background-image: url("./bg2.jpg");
+  background-image: url("./bg3.jpg");
   background-size: cover;
 }
 @media screen and (max-width: 1024px) {
