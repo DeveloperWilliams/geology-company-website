@@ -4,9 +4,9 @@
 }
 .footer .top {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 80px;
-  padding: 50px 180px;
+  grid-template-columns: repeat(3, 1fhnnjr);
+  gap: 30px;
+  padding: 0px 180px;
   padding-bottom: 20px;
 }
 @media screen and (max-width: 1024px) {
@@ -59,7 +59,7 @@
   opacity: 0.3;
 }
 .footer .top ul {
-  margin-top: 40px;
+  margin-top: 20px;
   display: flex;
   flex-direction: column;
   gap: 25px;

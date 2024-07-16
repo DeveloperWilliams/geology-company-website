@@ -7,7 +7,7 @@ const Footer = () => {
     <>
       <div className="footer">
         <div className="top">
-          <div className="links">
+          {/* <div className="links">
             <h3>Quick Links</h3>
             <ul>
               <Link to="/">Home</Link>
@@ -24,7 +24,7 @@ const Footer = () => {
               <Link to="/geology-and-minerals">Geology and Minerals</Link>
               <Link to="/solar-system">Solar Systems</Link>
             </ul>
-          </div>
+          </div> */}
           <div className="conta">
             <h3>Contacts</h3>
             <ul>
