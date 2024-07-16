@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import "./hireForm.css";
 
 function EquipmentLeaseForm() {
@@ -25,7 +27,7 @@ function EquipmentLeaseForm() {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (!formData.termsAccepted) {
-      alert("Please accept the terms and conditions.");
+      toast.error("Please accept the terms and conditions.");
       return;
     }
 
@@ -39,17 +41,28 @@ function EquipmentLeaseForm() {
       .then(
         (response) => {
           console.log("SUCCESS!", response.status, response.text);
-          alert("Form submitted successfully!");
+          toast.success("Form submitted successfully!");
+          setFormData({
+            firstName: "",
+            surname: "",
+            equipment: "",
+            vehicleIncluded: "",
+            pickupDate: "",
+            returnDate: "",
+            comments: "",
+            termsAccepted: false,
+          });
         },
         (err) => {
           console.log("FAILED...", err);
-          alert("There was an error submitting the form.");
+          toast.error("There was an error submitting the form.");
         }
       );
   };
 
   return (
     <div className="hireForm">
+      <ToastContainer />
       <h4>Hire Equipments</h4>
       <form onSubmit={handleSubmit}>
         <div>
@@ -64,7 +77,7 @@ function EquipmentLeaseForm() {
           <input
             type="text"
             name="surname"
-            placeholder="Phone Nummber"
+            placeholder="Phone Number"
             value={formData.surname}
             onChange={handleChange}
             required
