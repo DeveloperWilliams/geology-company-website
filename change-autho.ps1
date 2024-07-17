@@ -1,5 +1,5 @@
 $OLD_EMAIL = "usikumary@gmail.com"
-$CORRECT_NAME = ""
+$CORRECT_NAME = "DeveloperWilliams"
 $CORRECT_EMAIL = "archywilliams2@gmail.com"
 
 git filter-branch --env-filter {
