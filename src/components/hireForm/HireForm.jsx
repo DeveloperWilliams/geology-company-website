@@ -6,7 +6,7 @@ import "./hireForm.css";
 
 function EquipmentLeaseForm() {
   const [formData, setFormData] = useState({
-    firstName: "",
+    names: "",
     surname: "",
     equipment: "",
     vehicleIncluded: "",
@@ -44,7 +44,7 @@ function EquipmentLeaseForm() {
           toast.success("Form submitted successfully!");
           setFormData({
             firstName: "",
-            surname: "",
+            phoneNumber: "",
             equipment: "",
             vehicleIncluded: "",
             pickupDate: "",
@@ -65,20 +65,20 @@ function EquipmentLeaseForm() {
       <ToastContainer />
       <h4>Hire Equipments</h4>
       <form onSubmit={handleSubmit}>
-        <div>
+        <div className="oneB">
           <input
             type="text"
-            name="firstName"
+            name="names"
             placeholder="Full Name"
-            value={formData.firstName}
+            value={formData.names}
             onChange={handleChange}
             required
           />
           <input
             type="text"
-            name="surname"
+            name="phoneNumber"
             placeholder="Phone Number"
-            value={formData.surname}
+            value={formData.phoneNumber}
             onChange={handleChange}
             required
           />

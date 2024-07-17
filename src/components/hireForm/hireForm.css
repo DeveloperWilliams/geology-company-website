@@ -10,10 +10,10 @@
   gap: 30px;
 }
 @media screen and (max-width: 1024px) {
-    .hireForm{
-        padding: 120px 20px 30px;
-        height: max-content;
-    }
+  .hireForm {
+    padding: 120px 20px 30px;
+    height: max-content;
+  }
 }
 
 .hireForm h4 {
@@ -28,18 +28,23 @@
   gap: 20px;
 }
 @media screen and (max-width: 1024px) {
-    .hireForm form{
-      width: 80%;
-    }
+  .hireForm form {
+    width: 80%;
+  }
 }
 @media screen and (max-width: 540px) {
-    .hireForm form{
-      width: 100%;
-    }
+  .hireForm form {
+    width: 100%;
+  }
 }
 .hireForm form div {
   display: flex;
   gap: 20px;
+}
+@media screen and (max-width: 540px) {
+  .hireForm form .oneB {
+    flex-direction: column;
+  }
 }
 .hireForm form input {
   width: 100%;
@@ -51,6 +56,13 @@
   padding: 0px 10px;
   font-size: 12px;
 }
+@media screen and (max-width: 540px) {
+  .hireForm form input {
+    width: 95%;
+    height: 40px;
+    font-size: 11px;
+  }
+}
 .hireForm form select {
   width: 100%;
   height: 35px;
@@ -60,6 +72,13 @@
   font-family: "Playwrite DE Grund", cursive;
   padding: 0px 10px;
   font-size: 12px;
+}
+@media screen and (max-width: 540px) {
+  .hireForm form select {
+    height: 40px;
+  font-size: 11px;
+
+  }
 }
 .hireForm form label {
   display: flex;
@@ -80,8 +99,9 @@
   text-wrap: nowrap;
   justify-content: center;
 }
-.hireForm form .accept div{
-    display: flex;align-items: center;
+.hireForm form .accept div {
+  display: flex;
+  align-items: center;
 }
 .hireForm form label input {
   width: 65%;
@@ -98,17 +118,17 @@
   font-size: 12px;
   background-color: ghostwhite;
 }
-.hireForm form .submit{
-    display: flex;
-    justify-content: center;
+.hireForm form .submit {
+  display: flex;
+  justify-content: center;
 }
-.hireForm form button{
-    width: 40%;
-    justify-self: center;
-    border: 1px solid bisque;
-    padding: 15px 0px;
-    background-color: aliceblue;
-    font-family: "Josefin Sans", sans-serif;
-    color: grey;
-    font-weight: 700;
+.hireForm form button {
+  width: 40%;
+  justify-self: center;
+  border: 1px solid bisque;
+  padding: 15px 0px;
+  background-color: aliceblue;
+  font-family: "Josefin Sans", sans-serif;
+  color: grey;
+  font-weight: 700;
 }
