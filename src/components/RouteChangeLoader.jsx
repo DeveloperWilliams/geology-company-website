@@ -22,7 +22,7 @@ const RouteChangeLoader = ({ children, beforeLoad, afterLoad }) => {
       {loading ? <Loader /> : (
         <>
           {beforeLoad}
-          {children}
+          {children}{/* Content */}
           {afterLoad}
         </>
       )}
