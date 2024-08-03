@@ -22,7 +22,7 @@ const Navbar = () => {
     } else {
       setActive("home");
     }
-
+    setActive("activeLink", "home");
   }, [location]);
 
   const handleClick = (item) => {
