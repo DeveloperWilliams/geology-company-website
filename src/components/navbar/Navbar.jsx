@@ -4,27 +4,29 @@ import { Link, useLocation } from "react-router-dom";
 
 const Navbar = () => {
   const location = useLocation();
-  const [active, setActive] = useState(
-    localStorage.getItem("activeLink") || "home"
-  );
+  const [active, setActive] = useState("home");
   const [isMenuVisible, setMenuVisibility] = useState(false);
 
   useEffect(() => {
-    localStorage.setItem("activeLink", active);
-  }, [active]);
-
-  useEffect(() => {
-    if (location.pathname.includes("/ground-water-management") ||
-        location.pathname.includes("/geology-and-minerals") ||
-        location.pathname.includes("/solar-system") ||
-        location.pathname.includes("/grid-survey")) {
+    const path = location.pathname;
+    
+    if (path === "/" || path === "/about-us" || path === "/contact") {
+      setActive(path.substring(1) || "home");
+    } else if (path.includes("/ground-water-management") ||
+               path.includes("/geology-and-minerals") ||
+               path.includes("/solar-system") ||
+               path.includes("/grid-survey")) {
       setActive("services");
+    } else {
+      setActive("home");
     }
   }, [location]);
+  
 
   const handleClick = (item) => {
     setActive(item);
     setMenuVisibility(false);
+    localStorage.setItem("activeLink", item);
   };
 
   const CloseUl = () => {
@@ -57,8 +59,8 @@ const Navbar = () => {
           <li>
             <Link
               to="/about-us"
-              className={active === "about" ? "active" : ""}
-              onClick={() => handleClick("about")}
+              className={active === "about-us" ? "active" : ""}
+              onClick={() => handleClick("about-us")}
             >
               About Us
             </Link>
@@ -117,7 +119,7 @@ const Navbar = () => {
         </ul>
       </div>
 
-      {/* Smaller Devices Devices */}
+      {/* Smaller Devices */}
       <div className="container-small">
         <div className="top">
           <img className="my-logo" src="./geotruth.webp" alt="Logo-Geotruth" />
