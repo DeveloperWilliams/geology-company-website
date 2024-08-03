@@ -18,7 +18,7 @@ const Navbar = () => {
                path.includes("/grid-survey")) {
       setActive("services");
     } else {
-      setActive("home");
+      setActive("/");
     }
   }, [location]);
   
