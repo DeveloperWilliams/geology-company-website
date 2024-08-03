@@ -9,19 +9,21 @@ const Navbar = () => {
 
   useEffect(() => {
     const path = location.pathname;
-    
+
     if (path === "/" || path === "/about-us" || path === "/contact") {
       setActive(path.substring(1) || "home");
-    } else if (path.includes("/ground-water-management") ||
-               path.includes("/geology-and-minerals") ||
-               path.includes("/solar-system") ||
-               path.includes("/grid-survey")) {
+    } else if (
+      path.includes("/ground-water-management") ||
+      path.includes("/geology-and-minerals") ||
+      path.includes("/solar-system") ||
+      path.includes("/grid-survey")
+    ) {
       setActive("services");
     } else {
-      setActive("/");
+      setActive("home");
     }
+    localStorage.setItem("activeLink", "home");
   }, [location]);
-  
 
   const handleClick = (item) => {
     setActive(item);
