@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import emailjs from "emailjs-com";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { Helmet } from "react-helmet";
 
 const Contact = () => {
   const sendEmail = (e) => {
@@ -29,6 +30,13 @@ const Contact = () => {
 
   return (
     <>
+      <Helmet>
+        <title>Contact Us</title>
+        <meta
+          name="description"
+          content="Phone number, email address, and location of GeoTruth Consult. Contact us for borehole drilling, mineral exploration, geological surveys, ground survey, and solar system installations."
+        />
+      </Helmet>
       <div className="contanct-home">
         <ToastContainer />
         <div className="top">

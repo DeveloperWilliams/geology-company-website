@@ -1,10 +1,18 @@
 import React from "react";
 import "./mineral.css";
 import YouTubeEmbed from "../Youtube/Youtube";
+import { Helmet } from "react-helmet";
 
 function Grid() {
   return (
     <>
+      <Helmet>
+        <title>Gridding Survey</title>
+        <meta
+          name="description"
+          content="Get specialized Gridding Survey services from GeoTruth Consult, where our experts provide precise and professional solutions tailored to your specific needs."
+        />
+      </Helmet>
       <div className="mineral">
         <div className="top">
           <h6>Our Services</h6>

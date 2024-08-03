@@ -95,16 +95,22 @@
 }
 .services ul li {
   font-family: "Josefin Sans", sans-serif;
-  font-size: 10px;
+  font-size: 13px;
   border-top: 1px solid #8bb0e3;
   font-weight: normal;
-  padding: 11px 12px;
+  padding: 10px 12px;
 }
-.services ul li a{
-  width: fit-content;
-  font-weight: 300;
+
+.services ul li a {
+  display: block;
+  width: 100%;
   font-family: "Josefin Sans", sans-serif;
+  font-size: inherit;
+  font-weight: 500;
+  padding: inherit;
 }
+
+
 .services ul li:hover {
   background-color: #8bb0e3;
 }

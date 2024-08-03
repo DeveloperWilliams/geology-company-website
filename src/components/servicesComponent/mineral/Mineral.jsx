@@ -1,9 +1,17 @@
 import React from "react";
 import "./mineral.css";
+import { Helmet } from "react-helmet";
 
 function Mineral() {
   return (
     <>
+      <Helmet>
+        <title>About Us</title>
+        <meta
+          name="description"
+          content="Get specialized Geology and Mining services from GeoTruth Consult, where our experts deliver precise and professional solutions tailored to meet your resource exploration and extraction needs efficiently and sustainably."
+        />
+      </Helmet>
       <div className="mineral">
         <div className="top">
           <h6>Our Services</h6>

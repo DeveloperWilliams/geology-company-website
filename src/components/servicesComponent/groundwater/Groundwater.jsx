@@ -2,10 +2,19 @@ import React from "react";
 import "./groundwater.css";
 import { Link } from "react-router-dom";
 import ImageSlider from "./img";
+import { Helmet } from "react-helmet";
+
 
 function Groundwater() {
   return (
     <>
+      <Helmet>
+        <title>Groundwater Management</title>
+        <meta
+          name="description"
+          content="GeoTruth Consult provides expert advice and solutions for clients requiring specialised services, mainly in the fields of groundwater quality and quantity evaluation."
+        />
+      </Helmet>
       <div className="ground">
         <div className="top">
           <h6>Our Services</h6>
