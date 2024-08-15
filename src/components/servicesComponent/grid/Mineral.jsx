@@ -24,10 +24,7 @@ function Grid() {
               <img src="./gri.webp" />
             </div>
             <div className="two">
-              <h6>
-                Geotechnical Gridding Experts, turning your visions into
-                reality.
-              </h6>
+              <h6></h6>
               <ul>
                 <p>
                   No single project will have an exact outcome. As such, we
@@ -36,6 +33,7 @@ function Grid() {
                   employ specific or a combination of tools and geophysical
                   techniques to study a site for more accurate and actionable
                   deductions. Most notably, we conduct gridding surveys. <br />
+                  <br />
                   <em> Why Gridding Surveys?</em>
                 </p>
                 <p>
@@ -56,8 +54,8 @@ function Grid() {
                   on both the x- and y- planes to map the geometry of the
                   underlying aquifer after three drilling attempts yielded
                   undesirable results: first two attempts turned DRY; third
-                  attempt tapped into an aquifer discharging 2m3hr-1 of saline
-                  water
+                  attempt tapped into an aquifer discharging 2m<sup>3</sup>hr
+                  <sup>-1</sup>&nbsp;of saline water
                 </p>
               </ul>
             </div>

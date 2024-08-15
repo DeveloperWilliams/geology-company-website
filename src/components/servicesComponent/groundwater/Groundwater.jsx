@@ -26,11 +26,6 @@ function Groundwater() {
               <img src="./groundwater2.webp" />
             </div>
             <div className="two">
-              <p>
-                Our borehole drilling services efficiently access groundwater,
-                ensuring reliable water sources for domestic, agricultural, and
-                industrial needs.
-              </p>
               <ul>
                 <li>
                   <img src="./checked.webp" />

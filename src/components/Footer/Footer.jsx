@@ -19,10 +19,10 @@ const Footer = () => {
           <div className="Fservices">
             <h3>Services</h3>
             <ul>
+              <Link to="/grid-survey">Gridding Surveys</Link>
               <Link to="/ground-water-management">Groundwater Management</Link>
               <Link to="/geology-and-minerals">Geology and Minerals</Link>
               <Link to="/solar-system">Solar Systems</Link>
-              <Link to="/grid-survey">Gridding Survey</Link>
             </ul>
           </div>
           <div className="conta">
@@ -77,7 +77,7 @@ const Footer = () => {
           <hr />
           <div>
             <p>
-              Copyright @ 2024 Geotruth Consult <br />{" "}
+              Copyright @ 2024 GeoTruth Consult <br />{" "}
               <em>
                 Designed by{" "}
                 <Link to="http://wa.link/uy0uvo" target="_blank">

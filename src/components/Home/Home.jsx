@@ -17,7 +17,7 @@ const Home = () => {
                 transition={{ duration: 0.5, delay: 0.1 }}
                 viewport={{ once: true }}
               >
-                Gridding Survey
+                Gridding Surveys
               </motion.h1>
             </div>
           </motion.div>
@@ -47,7 +47,7 @@ const Home = () => {
                 transition={{ duration: 0.5, delay: 0.6 }}
                 viewport={{ once: true }}
               >
-                Geology and Mineral
+                Geology and Minerals
               </motion.h1>
             </div>
           </motion.div>
@@ -62,7 +62,7 @@ const Home = () => {
                 transition={{ duration: 0.5, delay: 0.8 }}
                 viewport={{ once: true }}
               >
-                Solar System
+                Solar Systems
               </motion.h1>
             </div>
           </motion.div>

@@ -73,6 +73,15 @@ const Navbar = () => {
               <li>
                 <Link
                   className="serviceLinks"
+                  to="/grid-survey"
+                  onClick={CloseUl}
+                >
+                  Gridding Surveys
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className="serviceLinks"
                   to="/ground-water-management"
                   onClick={CloseUl}
                 >
@@ -94,16 +103,7 @@ const Navbar = () => {
                   to="/solar-system"
                   onClick={CloseUl}
                 >
-                  Solar System
-                </Link>
-              </li>
-              <li>
-                <Link
-                  className="serviceLinks"
-                  to="/grid-survey"
-                  onClick={CloseUl}
-                >
-                  Grid Survey
+                  Solar Systems
                 </Link>
               </li>
             </ul>
@@ -148,6 +148,13 @@ const Navbar = () => {
               <Link
                 onClick={CloseUl}
                 className="serviceLinks"
+                to="/grid-survey"
+              >
+                Gridding Surveys
+              </Link>
+              <Link
+                onClick={CloseUl}
+                className="serviceLinks"
                 to="/ground-water-management"
               >
                 Groundwater Management
@@ -165,13 +172,6 @@ const Navbar = () => {
                 to="/solar-system"
               >
                 Solar System
-              </Link>
-              <Link
-                onClick={CloseUl}
-                className="serviceLinks"
-                to="/grid-survey"
-              >
-                Grid Survey
               </Link>
             </div>
           </li>
