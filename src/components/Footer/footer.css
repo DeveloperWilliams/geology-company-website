@@ -84,6 +84,7 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
+  position: relative;
 }
 .footer hr {
   border: 0px;
@@ -127,12 +128,23 @@
   opacity: 1;
 }
 
-.footer .whatsapp {
-  position: absolute;
-  right: 20px;
-  top: 10;
-}
+
 .footer .whatsapp img {
   width: 50px;
   height: 50px;
+  position: fixed;
+  right: 20px;
+  bottom: 30px;
+  animation: moveUp 1s ease infinite;
+}
+@keyframes moveUp{
+  0%{
+    transform: translateY(0);
+  }
+  50%{
+    transform: translateY(10px);
+  }
+  100%{
+    transform: translateY(0);
+  }
 }

@@ -77,7 +77,8 @@ const Footer = () => {
           <hr />
           <div>
             <p>
-              Copyright @ 2024 GeoTruth Consult <br />{" "}
+              Copyright @ 2024 GeoTruth Consult.
+              <br />{" "}
               <em>
                 Designed by{" "}
                 <Link to="http://wa.link/uy0uvo" target="_blank">
@@ -86,17 +87,16 @@ const Footer = () => {
               </em>
             </p>
           </div>
+          {/** whatsApp */}
+
+          <div className="whatsapp">
+            <Link to="http://wa.link/402pta" target="_blank">
+              <img src="./whatsapp.webp" alt=" img" />
+            </Link>
+          </div>
+
+          {/** whatsApp */}
         </div>
-
-        {/** whatsApp */}
-
-        <div className="whatsapp">
-          <Link to="http://wa.link/402pta" target="_blank">
-            <img src="./whatsapp.webp" alt=" img" />
-          </Link>
-        </div>
-
-        {/** whatsApp */}
       </div>
     </>
   );

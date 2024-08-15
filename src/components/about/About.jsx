@@ -108,10 +108,6 @@ function About() {
             <div className="right">
               <h6>Our Policy</h6>
               <p>
-                GeoTruth Consult ensures precise identification of optimal
-                drilling locations, minimizing costs and maximizing success. We
-                deliver value, quality service, and exceed customer expectations
-                by providing expert recommendations to avoid losses.
               </p>
               <ul>
                 <li>
