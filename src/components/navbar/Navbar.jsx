@@ -22,13 +22,13 @@ const Navbar = () => {
     } else {
       setActive("home");
     }
-    setActive("activeLink", "home");
+    localStorage.setItem("activeLink", "home");
   }, [location]);
 
   const handleClick = (item) => {
     setActive(item);
     setMenuVisibility(false);
-  
+    localStorage.setItem("activeLink", item);
   };
 
   const CloseUl = () => {
