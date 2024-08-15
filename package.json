@@ -17,7 +17,9 @@
     "react-dom": "^18.3.1",
     "react-helmet": "^6.1.0",
     "react-router-dom": "^6.23.1",
-    "react-toastify": "^10.0.5"
+    "react-router-sitemap": "^1.2.0",
+    "react-toastify": "^10.0.5",
+    "sitemap": "^8.0.0"
   },
   "devDependencies": {
     "@types/react": "^18.3.3",
