@@ -36,7 +36,7 @@ const Footer = () => {
                 <img src="./whatsapp.webp" alt="Whats" />
                 +254 731 440843
               </Link>
-              <Link to="mailto:nfo@geotruthconsult.org" target="_blank">
+              <Link to="mailto:info@geotruthconsult.org" target="_blank">
                 <img src="./email.webp" alt="Email" />
                 info@geotruthconsult.org
               </Link>
@@ -87,6 +87,16 @@ const Footer = () => {
             </p>
           </div>
         </div>
+
+        {/** whatsApp */}
+
+        <div className="whatsapp">
+          <Link to="http://wa.link/402pta" target="_blank">
+            <img src="./whatsapp.webp" alt=" img" />
+          </Link>
+        </div>
+
+        {/** whatsApp */}
       </div>
     </>
   );

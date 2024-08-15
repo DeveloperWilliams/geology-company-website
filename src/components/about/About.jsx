@@ -158,6 +158,9 @@ function About() {
         </div>
 
         {/** lower */}
+
+        {/** WhatsApp */}
+
       </div>
     </>
   );

@@ -126,3 +126,13 @@
   font-style: normal;
   opacity: 1;
 }
+
+.footer .whatsapp {
+  position: absolute;
+  right: 20px;
+  top: 10;
+}
+.footer .whatsapp img {
+  width: 50px;
+  height: 50px;
+}
