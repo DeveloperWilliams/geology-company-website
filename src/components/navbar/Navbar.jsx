@@ -46,6 +46,7 @@ const Navbar = () => {
         <div className="logo">
           <Link to="/">
             <img src="./geotruth.webp" alt="Logo-Geotruth" />
+            <p>Groundwater is our métier</p>
           </Link>
         </div>
         <ul>

@@ -57,9 +57,6 @@ function About() {
                 renewable energy, wastewater management and the environment.
               </p>
             </div>
-            <div>
-              <Link>Contanct Us</Link>
-            </div>
           </div>
           <div className="right">
             <img src="./ground.webp" />
@@ -71,34 +68,43 @@ function About() {
         <div className="lower">
           <div className="philosophy">
             <h6>Our Philosophy</h6>
-            <div>
-              <p>
-                <em>Clients:</em> GeoTruth Consult believes that their success
-                is intertwined with the success of their clients. They emphasize
-                that every project they undertake is crucial and contributes to
-                their overall success, ensuring that each client's project
-                succeeds.
-              </p>
-              <p>
-                <em>Staff:</em> The firm’s performance and abilities are only as
-                good as the staff we are able to attract, develop and retain.
-              </p>
-              <p>
-                <em>Technology:</em> A cornerstone of GeoTruth Consult’s
-                philosophy is to develop and embrace new technologies and
-                methodologies to the advantage of our clients and our business.
-              </p>
-              <p>
-                <em>Co-operation:</em>
-                GeoTruth Consult fosters collaboration and communication among
-                its human resources and stakeholders, partnering locally and
-                internationally for optimal client benefit.
-              </p>
-              <p>
-                <em>Growth:</em> It is GeoTruth Consult’s view that growth of
-                our business must be in response to the requirements of clients.
-                Growth can only be pursued with a carefully selected team.
-              </p>
+            <div className="phil-holder">
+              <div className="phil-img">
+                <img src="./sv.webp" alt="img" />
+              </div>
+              <div className="phil">
+                <p>
+                  <em>Clients:</em>
+                  <br /> GeoTruth Consult believes that their success is
+                  intertwined with the success of their clients. They emphasize
+                  that every project they undertake is crucial and contributes
+                  to their overall success, ensuring that each client's project
+                  succeeds.
+                </p>
+                <p>
+                  <em>Staff:</em>
+                  <br /> The firm’s performance and abilities are only as good
+                  as the staff we are able to attract, develop and retain.
+                </p>
+                <p>
+                  <em>Technology:</em>
+                  <br /> A cornerstone of GeoTruth Consult’s philosophy is to
+                  develop and embrace new technologies and methodologies to the
+                  advantage of our clients and our business.
+                </p>
+                <p>
+                  <em>Co-operation:</em> <br />
+                  GeoTruth Consult fosters collaboration and communication among
+                  its human resources and stakeholders, partnering locally and
+                  internationally for optimal client benefit.
+                </p>
+                <p>
+                  <em>Growth:</em> <br /> It is GeoTruth Consult’s view that
+                  growth of our business must be in response to the requirements
+                  of clients. Growth can only be pursued with a carefully
+                  selected team.
+                </p>
+              </div>
             </div>
           </div>
           <div className="policies">
@@ -107,43 +113,26 @@ function About() {
             </div>
             <div className="right">
               <h6>Our Policy</h6>
-              <p>
-              </p>
               <ul>
                 <li>
-                  <div>
-                    <img className="mark" src="./checked.webp.png" />
-                  </div>
                   <em>1.</em> Identifying and meeting customer requirements
                 </li>
                 <li>
-                  <div>
-                    <img className="mark" src="./checked.webp" />
-                  </div>
                   <em>2.</em> Ensuring compliance with all applicable
                   regulations and requirements regarding the services provided;
                 </li>
                 <li>
-                  <div>
-                    <img className="mark" src="./checked.webp" />
-                  </div>
                   <em>3.</em> Recruiting highly qualified staff and improving
                   the skills of employees in order to maintain the quality of
                   products and services that meet, or exceed, customer
                   expectations;
                 </li>
                 <li>
-                  <div>
-                    <img className="mark" src="./checked.webp" />
-                  </div>
                   <em>4.</em> Optimizing the performance and maintaining strict
                   monitoring protocols of the project throughout its duration in
                   order to meet desired requirements;
                 </li>
                 <li>
-                  <div>
-                    <img className="mark" src="./checked.webp" />
-                  </div>
                   <em>5.</em> Continually identifying, assessing and
                   implementing measures and steps that improve the firm’s
                   Quality Management System.
@@ -156,7 +145,6 @@ function About() {
         {/** lower */}
 
         {/** WhatsApp */}
-
       </div>
     </>
   );

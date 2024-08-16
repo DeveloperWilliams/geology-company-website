@@ -32,13 +32,13 @@ const Footer = () => {
                 <img src="./telephone.webp" alt="Whats" />
                 +254 731 440843
               </Link>
-              <Link to="http://wa.link/402pta" target="_blank">
-                <img src="./whatsapp.webp" alt="Whats" />
-                +254 731 440843
-              </Link>
               <Link to="mailto:info@geotruthconsult.org" target="_blank">
                 <img src="./email.webp" alt="Email" />
                 info@geotruthconsult.org
+              </Link>
+              <Link to="mailto:geotruthconsult@gmail.com" target="_blank">
+                <img src="./gmail.png" alt="Email" />
+                geotruthconsult@gmail.com
               </Link>
               <Link
                 to="https://maps.app.goo.gl/gtXgnGNKSHwtEcgPA"
@@ -46,6 +46,13 @@ const Footer = () => {
               >
                 <img src="./placeholder.webp" alt="Location" />
                 Forest Line Road, Nairobi
+              </Link>
+              <Link
+                to="https://maps.app.goo.gl/gtXgnGNKSHwtEcgPA"
+                target="_blank"
+              >
+                <img src="./address.png" alt="Location" />
+                00100, Nairobi, Kenya
               </Link>
             </ul>
           </div>

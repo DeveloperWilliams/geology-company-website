@@ -74,7 +74,7 @@ function Groundwater() {
               <ul>
                 <li>
                   <img src="./checked.webp" />
-                  Comprehenisve gridding surveys for aquifer geometry mapping
+                  Comprehenisive gridding surveys for aquifer geometry mapping
                 </li>
                 <li>
                   <img src="./checked.webp" />
