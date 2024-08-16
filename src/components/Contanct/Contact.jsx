@@ -107,6 +107,10 @@ const Contact = () => {
                 <img src="./placeholder.webp" alt="Location" />
                 Forest Line Road, Nairobi
               </Link>
+              <Link target="_blank">
+                <img src="./address.png" alt="Location" />
+                254723985556 - 00100, Nairobi, Kenya
+              </Link>
             </ul>
             <div className="follow">
               <h6>Follow Us</h6>

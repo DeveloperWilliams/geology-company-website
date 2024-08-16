@@ -48,11 +48,10 @@ const Footer = () => {
                 Forest Line Road, Nairobi
               </Link>
               <Link
-                to="https://maps.app.goo.gl/gtXgnGNKSHwtEcgPA"
                 target="_blank"
               >
                 <img src="./address.png" alt="Location" />
-                00100, Nairobi, Kenya
+                254723985556 - 00100, Nairobi, Kenya
               </Link>
             </ul>
           </div>
