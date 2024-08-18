@@ -27,19 +27,34 @@
   align-items: center;
   justify-content: center;
 }
-.container .logo a{
+.container .logo a {
   text-decoration: none;
   color: black;
+  display: flex;
+  flex-direction: row;
+  align-items: end;
 }
-.container .logo p{
+.container .logo .logo-cont{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+}
+.container .logo p {
   opacity: 0.5;
   font-style: italic;
   font-family: "Josefin Sans", sans-serif;
   padding-bottom: 5px;
-  font-size: 11px;
+  font-size: 12px;
+}
+.container .logo h6 {
+  font-family: "Roboto", sans-serif;
+  color: rgb(78, 139, 218);
+  font-size: 17px;
 }
 .container .logo img {
-  height: 80px;
+  height: 50px;
 }
 .container ul {
   display: flex;

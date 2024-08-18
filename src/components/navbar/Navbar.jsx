@@ -45,8 +45,13 @@ const Navbar = () => {
       <div className="container">
         <div className="logo">
           <Link to="/">
-            <img src="./geotruth.webp" alt="Logo-Geotruth" />
-            <p>Groundwater is our métier</p>
+            <div>
+              <img src="./logo.webp" alt="Logo-Geotruth" />
+            </div>
+            <div className="logo-cont">
+              <h6>GeoTruth Consult</h6>
+              <p>Groundwater is our métier</p>
+            </div>
           </Link>
         </div>
         <ul>
