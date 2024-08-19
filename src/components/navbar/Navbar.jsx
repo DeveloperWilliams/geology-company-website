@@ -130,7 +130,17 @@ const Navbar = () => {
       {/* Smaller Devices */}
       <div className="container-small">
         <div className="top">
-          <img className="my-logo" src="./geotruth.webp" alt="Logo-Geotruth" />
+          <div className="logo">
+            <Link to="/">
+              <div>
+                <img src="./logo.webp" alt="Logo-Geotruth" />
+              </div>
+              <div className="logo-cont">
+                <h6>GeoTruth Consult</h6>
+                <p>Groundwater is our métier</p>
+              </div>
+            </Link>
+          </div>
           <img src="./menu.webp" alt="Menu" onClick={toggleMenu} />
         </div>
         <div className={`menu-content ${isMenuVisible ? "visible" : ""}`}>

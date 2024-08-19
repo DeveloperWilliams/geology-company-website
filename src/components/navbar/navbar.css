@@ -33,28 +33,32 @@
   display: flex;
   flex-direction: row;
   align-items: end;
+  gap: 8px;
 }
-.container .logo .logo-cont{
+.container .logo .logo-cont {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  gap: 2px;
+  gap: 3px;
 }
 .container .logo p {
-  opacity: 0.5;
+  opacity: 0.6;
   font-style: italic;
   font-family: "Josefin Sans", sans-serif;
   padding-bottom: 5px;
-  font-size: 12px;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 1px;
 }
 .container .logo h6 {
   font-family: "Roboto", sans-serif;
   color: rgb(78, 139, 218);
-  font-size: 17px;
+  font-size: 25px;
 }
-.container .logo img {
-  height: 50px;
+.container .lo-p
+go img {
+  height: 55px;
+  width: 66px;
 }
 .container ul {
   display: flex;
@@ -176,6 +180,42 @@
   right: 0;
 }
 
+.container-small .logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container-small .logo a {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+}
+.container-small .logo .logo-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+.container-small .logo p {
+  opacity: 0.5;
+  font-style: italic;
+  font-family: "Josefin Sans", sans-serif;
+  padding-bottom: 5px;
+  font-size: 9px;
+}
+.container-small .logo h6 {
+  font-family: "Roboto", sans-serif;
+  color: rgb(78, 139, 218);
+  font-size: 13px;
+}
+.container-small .logo img {
+  height: 45px;
+  width: 60px;
+}
 .container-small .top img {
   height: 50px;
 }

@@ -18,7 +18,7 @@ const Hire = () => {
         >
           <Link to="/hire-equipment">
             {" "}
-            <button>Lease Geophyscical Equipments</button>
+            <button>Lease Geophyscical Equipment</button>
           </Link>
         </motion.div>
         <div class="vertical-line"></div>

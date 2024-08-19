@@ -63,7 +63,7 @@ function EquipmentLeaseForm() {
   return (
     <div className="hireForm">
       <ToastContainer />
-      <h4>Hire Equipments</h4>
+      <h4>Hire Equipment</h4>
       <form onSubmit={handleSubmit}>
         <div className="oneB">
           <input

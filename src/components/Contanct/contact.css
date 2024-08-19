@@ -58,6 +58,11 @@
   width: 100%;
   justify-content: end;
 }
+@media screen and (max-width: 540px) {
+  .contanct-home .bottom form div {
+    flex-direction: column;
+  }
+}
 .contanct-home .bottom form input {
   width: 100%;
   height: 40px;
@@ -70,6 +75,11 @@
   font-family: "Playwrite DE Grund", cursive;
   font-size: 13px;
   letter-spacing: 0.2mm;
+}
+@media screen and (max-width: 540px) {
+  .contanct-home .bottom form input {
+    width: 90%;
+  }
 }
 .contanct-home .bottom form textarea {
   height: 130px;
@@ -84,6 +94,11 @@
   font-family: "Playwrite DE Grund", cursive;
   font-size: 13px;
   overflow: hidden;
+}
+@media screen and (max-width: 540px) {
+  .contanct-home .bottom form textarea {
+    width: 90%;
+  }
 }
 .contanct-home .bottom form button {
   height: 30px;
