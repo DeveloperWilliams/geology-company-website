@@ -1,18 +1,11 @@
 import React from "react";
 import "./about.css";
 import { Link } from "react-router-dom";
-import { Helmet } from "react-helmet";
 
 function About() {
   return (
     <>
-      <Helmet>
-        <title>About Us</title>
-        <meta
-          name="description"
-          content="Learn more about GeoTruth Consult, We provide Borehole drilling, Mineral exploration, Geological surveys, Ground survey, and Solar system installations. Your trusted partner in sustainable resource management and energy solutions."
-        />
-      </Helmet>
+     
       <div className="about-div">
         <div className="top">
           <h5>About Us</h5>
