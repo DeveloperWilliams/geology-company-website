@@ -118,6 +118,7 @@ function EquipmentLeaseForm() {
               value={formData.pickupDate}
               onChange={handleChange}
               required
+              min={new Date().toISOString().split("T")[0]}
             />
           </label>
           <label>
@@ -128,6 +129,7 @@ function EquipmentLeaseForm() {
               value={formData.returnDate}
               onChange={handleChange}
               required
+              min={new Date(Date.now() + 86400000).toISOString().split("T")[0]}
             />
           </label>
         </div>

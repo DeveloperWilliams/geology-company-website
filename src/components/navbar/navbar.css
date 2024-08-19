@@ -174,7 +174,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0px 35px;
+  padding: 0px 30px;
   top: 0;
   left: 0;
   right: 0;
@@ -192,6 +192,7 @@
   display: flex;
   flex-direction: row;
   align-items: end;
+  gap: 8px;
 }
 .container-small .logo .logo-cont {
   display: flex;
@@ -210,14 +211,12 @@
 .container-small .logo h6 {
   font-family: "Roboto", sans-serif;
   color: rgb(78, 139, 218);
-  font-size: 13px;
+  font-size: 17px;
+  font-weight: 900;
 }
-.container-small .logo img {
-  height: 45px;
-  width: 60px;
-}
+
 .container-small .top img {
-  height: 50px;
+  height: 40px;
 }
 .container-small .top .my-logo {
   height: 60px;
