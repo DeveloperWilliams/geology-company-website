@@ -4,9 +4,9 @@
   left: 0;
   right: 0;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  padding: 0px 120px;
+  padding: 0px 100px;
   background-image: url("./l.jpg");
   box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
   z-index: 1000;
@@ -39,7 +39,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 3px;
+  gap: 5px;
 }
 .container .logo p {
   opacity: 0.6;
@@ -54,10 +54,10 @@
   font-family: "Roboto", sans-serif;
   color: rgb(78, 139, 218);
   font-size: 25px;
+  font-weight: 900;
 }
-.container .lo-p
-go img {
-  height: 55px;
+.container .logo img {
+  height: 50px;
   width: 66px;
 }
 .container ul {
