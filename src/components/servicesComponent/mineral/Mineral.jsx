@@ -20,7 +20,7 @@ function Mineral() {
         <div className="bottom">
           <div className="upper">
             <div className="one">
-              <img src="./mine1.webp" />
+              <img src="/mine1.webp" />
             </div>
             <div className="two">
               <p>
@@ -30,20 +30,20 @@ function Mineral() {
               </p>
               <ul>
                 <li>
-                  <img src="./checked.webp" />
+                  <img src="/checked.webp" />
                   Industrial minerals and rocks; construction rocks quarry
                   assessments and valuation.
                 </li>
                 <li>
-                  <img src="./checked.webp" />
+                  <img src="/checked.webp" />
                   Hydrocarbons; geothermal vents.
                 </li>
                 <li>
-                  <img src="./checked.webp" />
+                  <img src="/checked.webp" />
                   Heavy Metals such as gold, copper, etc.
                 </li>
                 <li>
-                  <img src="./checked.webp" />
+                  <img src="/checked.webp" />
                   Rare Earth Elements (REEs).
                 </li>
               </ul>

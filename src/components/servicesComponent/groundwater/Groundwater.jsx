@@ -23,26 +23,26 @@ function Groundwater() {
         <div className="bottom">
           <div className="upper">
             <div className="one">
-              <img src="./groundwater2.webp" />
+              <img src="/groundwater2.webp" />
             </div>
             <div className="two">
               <ul>
                 <li>
-                  <img src="./checked.webp" />
+                  <img src="/checked.webp" />
                   Borehole drilling contract management and supervision to meet
                   Kenyan and international standards.
                 </li>
                 <li>
-                  <img src="./checked.webp" />
+                  <img src="/checked.webp" />
                   Borehole testpumping supervision and data analysis and
                   interpretation.
                 </li>
                 <li>
-                  <img src="./checked.webp" />
+                  <img src="/checked.webp" />
                   Borehole camera analysis.
                 </li>
                 <li>
-                  <img src="./checked.webp" />
+                  <img src="/checked.webp" />
                   Borehole completion record reports.
                 </li>
               </ul>
@@ -73,26 +73,26 @@ function Groundwater() {
             <div className="two">
               <ul>
                 <li>
-                  <img src="./checked.webp" />
+                  <img src="/checked.webp" />
                   Comprehenisive gridding surveys for aquifer geometry mapping
                 </li>
                 <li>
-                  <img src="./checked.webp" />
+                  <img src="/checked.webp" />
                   Aquifer characterisation: depth, thickness, yield and quality
                   assessment before drilling with a high degree of confidence.
                 </li>
                 <li>
-                  <img src="./checked.webp" />
+                  <img src="/checked.webp" />
                   Saline-fresh water delineation and monitoring of contamination
                   in aquifers.
                 </li>
                 <li>
-                  <img src="./checked.webp" />
+                  <img src="/checked.webp" />
                   Design and construction of artificial aquifer recharge
                   systems.
                 </li>
                 <li>
-                  <img src="./checked.webp" />
+                  <img src="/checked.webp" />
                   Mine dewatering design and implementation.
                 </li>
               </ul>

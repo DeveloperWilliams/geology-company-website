@@ -33,7 +33,7 @@ function EquipmentLeaseForm() {
 
     emailjs
       .send(
-        "service_9zipbjn",
+        "service_rpktb8g",
         "template_bpfroud",
         formData,
         "kuMtsRqMku0V5E3nr"

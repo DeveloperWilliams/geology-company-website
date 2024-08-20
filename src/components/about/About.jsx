@@ -1,11 +1,19 @@
 import React from "react";
 import "./about.css";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
+
 
 function About() {
   return (
     <>
-     
+     <Helmet>
+        <title>About Us</title>
+        <meta
+          name="description"
+          content="GeoTruth Consult provides expert advice and solutions for clients requiring specialised services, mainly in the fields of groundwater quality and quantity evaluation, geotechnics, renewable energy, wastewater management and the environment."
+        /> 
+     </Helmet>
       <div className="about-div">
         <div className="top">
           <h5>About Us</h5>
@@ -18,25 +26,25 @@ function About() {
               <p>GeoTruth Consult aims to be recognised as:</p>
               <ul>
                 <li>
-                  <img className="mark" src="./checked.webp" />A partner of
+                  <img className="mark" src="/checked.webp" />A partner of
                   choice by our clients;
                 </li>
                 <li>
-                  <img className="mark" src="./checked.webp" />
+                  <img className="mark" src="/checked.webp" />
                   Delivering services based on real needs;
                 </li>
                 <li>
-                  <img className="mark" src="./checked.webp" />
+                  <img className="mark" src="/checked.webp" />
                   Technologically advanced in our fields of expertise while
                   remaining practical and business oriented;
                 </li>
                 <li>
-                  <img className="mark" src="./checked.webp" />
+                  <img className="mark" src="/checked.webp" />
                   Being worthy of clients’ confidence by remaining accountable
                   for our actions
                 </li>
                 <li>
-                  <img className="mark" src="./checked.webp" />
+                  <img className="mark" src="/checked.webp" />
                   Adding value to clients’ projects;
                 </li>
               </ul>
@@ -52,7 +60,7 @@ function About() {
             </div>
           </div>
           <div className="right">
-            <img src="./ground.webp" />
+            <img src="/ground.webp" />
           </div>
         </div>
 
@@ -63,7 +71,7 @@ function About() {
             <h6>Our Philosophy</h6>
             <div className="phil-holder">
               <div className="phil-img">
-                <img src="./sv.webp" alt="img" />
+                <img src="/sv.webp" alt="img" />
               </div>
               <div className="phil">
                 <p>
@@ -102,7 +110,7 @@ function About() {
           </div>
           <div className="policies">
             <div className="left">
-              <img src="./policies.webp" />
+              <img src="/policies.webp" />
             </div>
             <div className="right">
               <h6>Our Policy</h6>

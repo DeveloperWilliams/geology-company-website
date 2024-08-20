@@ -20,7 +20,7 @@ function Esia() {
         <div className="bottom">
           <div className="upper">
             <div className="one">
-              <img src="./solar1.webp" />
+              <img src="/solar1.webp" />
             </div>
             <div className="two">
               <p>
@@ -30,16 +30,16 @@ function Esia() {
               </p>
               <ul>
                 <li>
-                  <img src="./checked.webp" />
+                  <img src="/checked.webp" />
                   ESIA studies for proposed groundwater and development
                   projects.
                 </li>
                 <li>
-                  <img src="./checked.webp" />
+                  <img src="/checked.webp" />
                   Energy Audits.
                 </li>
                 <li>
-                  <img src="./checked.webp" />
+                  <img src="/checked.webp" />
                   Solar Systems design and installation: Pumping solutions;
                   domestic off-grid and hybrid systems.
                 </li>

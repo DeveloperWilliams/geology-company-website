@@ -46,7 +46,7 @@ const Navbar = () => {
         <div className="logo">
           <Link to="/">
             <div>
-              <img src="./logo.webp" alt="Logo-Geotruth" />
+              <img src="/logo.webp" alt="Logo-Geotruth" />
             </div>
             <div className="logo-cont">
               <h6>GeoTruth Consult</h6>
@@ -133,7 +133,7 @@ const Navbar = () => {
           <div className="logo">
             <Link to="/">
               <div>
-                <img src="./logo.webp" alt="Logo-Geotruth" />
+                <img src="/logo.webp" alt="Logo-Geotruth" />
               </div>
               <div className="logo-cont">
                 <h6>GeoTruth Consult</h6>
@@ -141,7 +141,7 @@ const Navbar = () => {
               </div>
             </Link>
           </div>
-          <img src="./menu.webp" alt="Menu" onClick={toggleMenu} />
+          <img src="/menu.webp" alt="Menu" onClick={toggleMenu} />
         </div>
         <div className={`menu-content ${isMenuVisible ? "visible" : ""}`}>
           <Link

@@ -21,7 +21,7 @@ function Grid() {
         <div className="bottom">
           <div className="upper">
             <div className="one">
-              <img src="./gri.webp" />
+              <img src="/gri.webp" />
             </div>
             <div className="two">
               <h6></h6>
